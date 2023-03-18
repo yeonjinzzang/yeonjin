@@ -1,0 +1,457 @@
+/*pc버전 ~1920px ~1200px
+테블릿 ~1024px ~768px
+모바일 ~480px ~320px*/
+
+/*-------------------PC버전 ----------------------*/
+@media screen and (max-width: 1920px) {
+  html,
+  body {
+    width: 100%;
+  }
+}
+
+/*-------------------테블릿 버전 --------------------*/
+@media screen and (max-width: 1200px) {
+  html,
+  body {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  html,
+  body {
+    font-size: 12px;
+  }
+  /* about */
+  section#about {
+    height: 2150px;
+  }
+  #about .yj {
+    height: 770px;
+  }
+  #about .yj .yj_right .about_me {
+    margin-top: 0px;
+  }
+
+  #about .yj img {
+    margin-top: 100px;
+    padding-right: 80px;
+    width: 100%;
+  }
+
+  /*========== work ==========*/
+
+  section#work {
+    height: 1860px;
+  }
+
+  /* work 크기 */
+  #work1 {
+    height: 570px;
+  }
+  #work2 {
+    height: 520px;
+  }
+
+  /* work 오른쪽 */
+  .work_txtbox {
+    top: 50%;
+  }
+  /* work 버튼 */
+  .work_txtbox .visit_btn1 {
+    margin-left: 60%;
+  }
+  /* ========== contact ========== */
+  section#contact {
+    height: 1540px;
+  }
+  /* contact 정보 */
+  .information {
+    bottom: 6%;
+  }
+
+  /* ==================== */
+  #main,
+  .contents_tit,
+  #about1,
+  .contact_box {
+    /*수정부분 : 포폴 아이디 추가*/
+    height: 770px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  html,
+  body {
+    font-size: 11px;
+  }
+
+  /*============ menu ============*/
+  header #menu_wrap #main_menu {
+    min-width: 270px;
+  }
+  /*============ about ============ */
+  section#about > .contents_tit {
+    background: #444961;
+  }
+  /*============ main ============*/
+  #main {
+    height: 1540px;
+  }
+  #main #main_left,
+  #main #main_right {
+    position: relative;
+    width: 100%;
+    float: none;
+    height: 50%;
+  }
+  #change {
+    display: none;
+  }
+}
+
+/*------------------- 모바일 버전 ----------------------*/
+
+@media screen and (max-width: 768px) {
+  html,
+  body {
+    font-size: 10px;
+  }
+
+  /*menu*/
+  header #menu_wrap #main_menu {
+    min-width: 240px;
+  }
+  header #menu_wrap #main_menu ul li {
+    padding-bottom: 20%;
+  }
+
+  /*main*/
+  #main {
+    height: 770px;
+  }
+  #main #main_left #main_txtbox {
+    padding-left: 3%;
+    width: 80%;
+  }
+  #main #main_left {
+    height: 100%;
+  }
+  #main #main_right {
+    display: none;
+  }
+
+  /*about*/
+  section#about {
+    height: 2060px;
+  }
+  #about .yj {
+    display: block;
+    flex: none;
+    padding: 50px;
+  }
+  /* about 왼쪽영역 */
+  #about .yj .yj_left {
+    width: 100%;
+    height: auto;
+  }
+  #about .yj img {
+    margin-top: 0;
+    padding: 0 240px;
+    box-sizing: border-box;
+  }
+  /* about 오른쪽영역//글씨 */
+  #about .yj .yj_right {
+    width: 100%;
+    padding-left: 0px;
+    height: auto;
+    margin-top: 40px;
+  }
+  #about .yj .yj_right .about_me {
+    text-align: center;
+    padding-left: 0;
+  }
+  /* about 오른쪽영역//아이콘 */
+  .about_icon {
+    width: 100%;
+    margin-top: 1.5rem;
+    display: flex;
+    padding-left: 0;
+  }
+  .about_icon li {
+    width: 33.333%;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .about_icon li div {
+    width: 33.333%;
+    height: 7rem;
+    margin: auto;
+    background-size: cover;
+    background-position: center center;
+  }
+  .about_icon .about_icontxt {
+    margin: auto;
+  }
+
+  /* 별빛 애니메이션 */
+
+  .twinkling-star:nth-child(1) {
+    left: 6%;
+    top: 120px;
+    animation-delay: 0;
+    animation-duration: 2.6s;
+  }
+  .twinkling-star:nth-child(2) {
+    left: 14%;
+    top: 28px;
+    animation-delay: 0.3s;
+    animation-duration: 3.2s;
+  }
+  .twinkling-star:nth-child(3) {
+    left: 30%;
+    top: 170px;
+    animation-delay: 0.6s;
+    animation-duration: 3s;
+  }
+  .twinkling-star:nth-child(4) {
+    left: 24%;
+    top: 320px;
+    animation-delay: 0.8s;
+    animation-duration: 2.8s;
+  }
+  .twinkling-star:nth-child(5) {
+    left: 38%;
+    top: 40px;
+    animation-delay: 0.8s;
+    animation-duration: 2s;
+  }
+  .twinkling-star:nth-child(6) {
+    left: 46%;
+    top: 390px;
+    animation-delay: 1.6s;
+    animation-duration: 1.8s;
+  }
+  .twinkling-star:nth-child(7) {
+    left: 51.8%;
+    top: 60px;
+    animation-delay: 1.2s;
+    animation-duration: 1.8s;
+  }
+  .twinkling-star:nth-child(8) {
+    left: 55%;
+    top: 420px;
+    animation-delay: 0.2s;
+    animation-duration: 2.8s;
+  }
+  .twinkling-star:nth-child(9) {
+    left: 56%;
+    top: 330px;
+    animation-delay: 1.6s;
+    animation-duration: 2s;
+  }
+  .twinkling-star:nth-child(10) {
+    left: 69.8%;
+    top: 100px;
+    animation-delay: 0.3s;
+    animation-duration: 2.6s;
+  }
+  .twinkling-star:nth-child(11) {
+    left: 13%;
+    top: 360px;
+    animation-delay: 0.6s;
+    animation-duration: 1.2s;
+  }
+  .twinkling-star:nth-child(12) {
+    left: 90%;
+    top: 330px;
+    animation-delay: 2s;
+    animation-duration: 3.2s;
+  }
+  .twinkling-star:nth-child(13) {
+    left: 86.25%;
+    top: 37px;
+    animation-delay: 1.2s;
+    animation-duration: 2.5s;
+  }
+  .twinkling-star:nth-child(14) {
+    left: 82%;
+    top: 280px;
+    animation-delay: 0.2s;
+    animation-duration: 2.6s;
+  }
+  .twinkling-star:nth-child(15) {
+    left: 10%;
+    top: 420px;
+    animation-delay: 0.3s;
+    animation-duration: 3.2s;
+  }
+
+  /*work*/
+
+  section#work {
+    height: 2250px;
+  }
+  #work1 {
+    height: 680px;
+  }
+  #work2 {
+    height: 660px;
+  }
+  #work_list {
+    height: 1400px;
+    padding: 0 50px;
+  }
+  /* work//왼쪽 */
+  .work_left {
+    width: 100%;
+    /* height: 80%; */
+  }
+
+  /* work//오른쪽 */
+  .work_right {
+    width: 100%;
+    text-align: center;
+    height: 20%;
+    bottom: -30px;
+  }
+  .work_txtbox .work_subtit a {
+    display: inline;
+  }
+  .work_txtbox .work_txt {
+    text-align: center;
+  }
+  .work_txtbox .visit_btn {
+    left: 12%;
+  }
+  .work_txtbox .visit_btn1 {
+    margin-left: 42%;
+  }
+  /* contact */
+  .information h2 {
+    font-size: 2rem;
+    padding-bottom: 18px;
+  }
+  .information p {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  #about .yj img {
+    margin-top: 0;
+    padding: 0 124px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 480px) {
+  html,
+  body {
+    font-size: 9px;
+  }
+  /*menu*/
+  header #menu_wrap #main_menu {
+    min-width: 220px;
+  }
+  /*contents*/
+  .contents_tit h2 {
+    height: 100px;
+  }
+  .contents_tit h2 a,
+  section#contact .contents_tit h2 a {
+    font-size: 7rem;
+  }
+  section#about .contents_tit h2 a:before,
+  section#skills .contents_tit h2 a:before,
+  section#work .contents_tit h2 a:before,
+  section#contact .contents_tit h2 a:before {
+    top: 5px;
+    left: 5px;
+  }
+  /* ============ about ============ */
+  section#about {
+    height: 2580px;
+  }
+  #about .yj {
+    height: 1150px;
+  }
+  #about .yj img {
+    margin-top: 0;
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+  #about .yj .yj_right .about_me {
+    font-size: 1.3rem;
+  }
+  .about_icon {
+    display: block;
+    margin: auto;
+  }
+  .about_icon li {
+    width: 100%;
+    flex: none;
+    margin: 10px 0;
+  }
+  .about_icon li div {
+    width: 8rem;
+  }
+  .about_icon .about_icontxt {
+    text-align: left;
+    width: 65%;
+    font-size: 1.3rem;
+  }
+  /* about//skill */
+  .skills-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .skills-list li {
+    width: 50%;
+  }
+  /* ============ work ============ */
+  #work1 {
+    height: 660px;
+  }
+  #work_list {
+    padding: 50px;
+  }
+  .work_left {
+    height: 40%;
+  }
+  .work_left:nth-child(1) img {
+    top: 52%;
+    display: block;
+  }
+  .work_right {
+    width: 100%;
+    text-align: center;
+    height: 60%;
+    bottom: 0px;
+  }
+  .work_txtbox {
+    top: 52%;
+  }
+  .work_txtbox .visit_btn {
+    left: 0;
+    width: 50%;
+  }
+  .work_txtbox .visit_btn1 {
+    margin-left: 60%;
+  }
+  .work_txtbox .visit_btn a {
+    font-size: 12px;
+  }
+  .work_txtbox .visit_btn:before {
+    top: 1px;
+    left: 1px;
+    border: 1px solid #5e62d1;
+  }
+  /* =========== contact =========== */
+  .contact_box {
+    height: 700px;
+  }
+  .information {
+    width: 100%;
+    bottom: 12%;
+  }
+}

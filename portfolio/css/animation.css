@@ -1,0 +1,83 @@
+@keyframes animate {
+  0% {
+    transform: rotate(315deg) translateX(0);
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(315deg) translateX(-1500px);
+    opacity: 0;
+  }
+}
+@keyframes rotate_image {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.star {
+  animation: animate 2.6s linear infinite;
+}
+
+/* 별빛 애니메이션 */
+@keyframes glitter {
+  0% {
+    -webkit-transform: scale(1);
+    opacity: 1;
+  }
+  25% {
+    -webkit-transform: scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    -webkit-transform: scale(1);
+    opacity: 1;
+  }
+  75% {
+    -webkit-transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    opacity: 1;
+  }
+}
+.twinkling-star {
+  animation: glitter 2.6s linear infinite;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.stars :nth-child(1) {
+  animation: spin 10000ms linear infinite;
+}
+.stars :nth-child(3) {
+  animation: spin 11000ms linear infinite;
+}
+.stars :nth-child(5) {
+  animation: spin 10000ms linear infinite;
+}
+.stars :nth-child(7) {
+  animation: spin 12000ms linear infinite;
+}
+.stars :nth-child(9) {
+  animation: spin 10000ms linear infinite;
+}
+.stars :nth-child(11) {
+  animation: spin 14000ms linear infinite;
+}
+.stars :nth-child(13) {
+  animation: spin 10000ms linear infinite;
+}
+.stars :nth-child(15) {
+  animation: spin 12000ms linear infinite;
+}
+.stars :nth-child(17) {
+  animation: spin 10000ms linear infinite;
+}

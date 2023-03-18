@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>YEONJIN Profile Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css 외부링크 -->
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/animation.css" rel="stylesheet" />
+    <link href="css/mediaquery.css" rel="stylesheet">
+    <!-- js 외부링크 -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.easing.1.3.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/half_scroll.js"></script>
+  </head>
+  <body>
+    <header>
+      <!-- 로고 -->
+      <div id="logo">
+        <a href="#">YJ</a>
+      </div>
+
+      <!-- 메뉴 버튼 -->
+      <h2 id="menu_btn">
+        <a href="#">
+          <span id="t_btn"></span>
+          <span id="b_btn"></span>
+        </a>
+      </h2>
+
+      <!-- 메인메뉴 -->
+      <div id="menu_wrap">
+        <nav id="main_menu">
+          <ul>
+            <li><a href="#main">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <!-- <li><a href="#skills">SKILLS</a></li> -->
+            <li><a href="#work">WORK</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+        <div id="menu_bg1" class="menu_bg"></div>
+        <div id="menu_bg2" class="menu_bg"></div>
+      </div>
+    </header>
+
+    <!-- 메인화면 -->
+    <div id="main">
+      <!-- 메인 왼쪽 화면 -->
+      <div id="main_left" class="clearfix">
+        <div id="main_txtbox">
+          <span id="main_subtit">다채로운 색을 갖고 있는 YEONJIN 입니다.</span>
+          <p><span>YEONJIN'S</span>PORTFOLIO</p>
+        </div>
+      </div>
+
+      <!-- 늘어나는 화면 -->
+      <div id="change"></div>
+
+      <!-- 메인 오른쪽 화면 -->
+      <div id="main_right">
+        <!--구름 -->
+        <div id="clouds">
+          <div class="cloud x1"></div>
+          <div class="cloud x2"></div>
+          <div class="cloud x3"></div>
+          <div class="cloud x4"></div>
+          <div class="cloud x5"></div>
+        </div>
+      </div>
+    </div>
+    <!-- main end -->
+
+    <!-- about -->
+    <section id="about">
+      <div class="contents_tit">
+        <h2><a href="#">ABOUT</a></h2>
+      </div>
+
+      <div class="yj">
+        
+        <!-- 오른쪽 -->
+        <div class="yj_left"><img src="img/YJ.jpg" alt="프로필사진" /></div>
+        <div class="yj_right">
+          <p class="about_me">
+            <mark class="mark1"
+              >꾸준히 나를 쌓는 꼼꼼한 디자이너 최연진 입니다.</mark
+            ><br />
+            저는 꼼꼼한 성격으로 항상 맡은 일에 최선을 다하여 주위 사람들로부터
+            신뢰를 받고 있습니다.<br />
+            꼼꼼함이 있다면 무슨일이든 체계적으로 진행하여 계획에 차질이
+            생기지않을 것이라고 생각합니다.<br />이러한 저의 장점을 가지고 제가
+            맡은일을 최선을 다해 완성해나가겠습니다.<br />
+            어려운것, 시도해보지 않은것, 잘몰랐던것이 있다면 배우는 태도에
+            적극적으로 참여하여 발전하겠습니다.<br />
+            <br />어떤 환경에서든 늘 적응하고 맞춰가며 내 앞에 있는 것만 보지
+            않고<br />
+            앞으로 나아가기 위해 끊임없이 연구하고 노력하겠습니다.
+          </p>
+
+          <!-- 움직이는 아이콘 -->
+          <ul class="about_icon">
+
+            <li>
+              <div class="gif-icon1"></div>
+              <p class="about_icontxt">
+                <mark class="mark3">#배움의 즐거움</mark><br>
+                배우는 태도에 적극적이며,<br>
+                실수가 있더라도 해결해 내가는 과정에서<br> 
+                교훈을 얻고 더 나아가려는 자세로 임합니다.
+              </p>
+            </li>
+
+            <li>
+              <div class="gif-icon2"></div>
+              <p class="about_icontxt">
+                <mark class="mark3">#책임감</mark><br>
+                기한을 엄수하며, 주어진 일을<br>
+                끝까지 최선을 다하며 완료합니다.
+              </p>
+            </li>
+
+            <li>
+              <div class="gif-icon3"></div>
+              <p class="about_icontxt">
+                <mark class="mark3">#커뮤니케이션</mark><br>
+                귀 기울일 줄 아는 공감 능력이 있으며,<br>
+                항상 열린 마음으로 경청하며 소통하는<br>
+                자세를 가졌습니다.
+              </p>
+            </li>
+
+        </div>
+      </div>
+
+      <!-- 스킬 -->
+      <div class="skills">
+        <div class="skills-bg">
+          <!-- 별 마퀴태그 -->
+          <ul class="skills-list">
+            <!-- html -->
+            <li>
+              <div class="skills-icon1">
+                <span class="skill_i">HTML아이콘</span>
+              </div>
+              <span class="skill_t">
+                html구조를 파악하고 있으며,<br />
+                레이아웃을 잡을 때 정렬과 구성을<br />
+                알아보기 쉽게 제작 할 수 있습니다.
+              </span>
+            </li>
+
+            <!-- css -->
+            <li>
+              <div class="skills-icon2">
+                <span class="skill_i">CSS아이콘</span>
+              </div>
+              <span class="skill_t">
+                css를 활용하여 컨텐츠에<br />
+                효과를 줄 수 있습니다.
+              </span>
+            </li>
+
+            <!--제이쿼리-->
+            <li>
+              <div class="skills-icon3">
+                <span class="skill_i">제이쿼리 아이콘</span>
+              </div>
+              <span class="skill_t">
+                슬리이드, 다운네비 등<br />
+                기본적인 동적구현이 가능합니다.
+              </span>
+            </li>
+
+            <!--포토샵-->
+            <li>
+              <div class="skills-icon4">
+                <span class="skill_i">포토샵 아이콘</span>
+              </div>
+              <span class="skill_t">
+                누끼, 사진 보정 등을 활용해<br />
+                툴 이용으로 다양한 작업이 가능합니다.
+              </span>
+            </li>
+
+            <!--일러스트-->
+            <li>
+              <div class="skills-icon5">
+                <span class="skill_i">일러스트 아이콘</span>
+              </div>
+              <span class="skill_t">
+                아이콘이나 펜툴을 활용하여<br />
+                간단한 일러스트 작업이 가능합니다.
+              </span>
+            </li>
+          </ul>
+          <!--skills-list end-->
+
+          <!--스킬 배경에 별빛-->
+          <div class="twinkling-stars">
+            <span class="twinkling-star"></span>
+            <span class="twinkling-star"></span>
+            <span class="twinkling-star"></span>
+            <span class="twinkling-star"></span>
+            <span class="twinkling-star"></span>
+            <span class="twinkling-star"></span>
+            <span class="twinkling-star"></span>
+            <span class="twinkling-star"></span>
+            <span class="twinkling-star"></span>
+            <span class="twinkling-star"></span>
+            <span class="twinkling-star"></span>
+            <span class="twinkling-star"></span>
+            <span class="twinkling-star"></span>
+            <span class="twinkling-star"></span>
+            <span class="twinkling-star"></span>
+          </div>
+        </div>
+        <marquee
+          class="stars"
+          behavior="scroll"
+          scrollamount="300"
+          scrolldelay="3300"
+          ><img
+            src="img/star.png"
+            alt="별"
+          />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img
+            src="img/star.png"
+            alt="별"
+          />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img
+            src="img/star.png"
+            alt="별"
+          />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img
+            src="img/star.png"
+            alt="별"
+          />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img
+            src="img/star.png"
+            alt="별"
+          />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img
+            src="img/star.png"
+            alt="별"
+          />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img
+            src="img/star.png"
+            alt="별"
+          />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img
+            src="img/star.png"
+            alt="별"
+          />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img
+            src="img/star.png"
+            alt="별"
+          />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img
+            src="img/star.png"
+            alt="별"
+          />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img
+            src="img/star.png"
+            alt="별"
+          />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img
+            src="img/star.png"
+            alt="별"
+          />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img
+            src="img/star.png"
+            alt="별"
+          />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img
+            src="img/star.png"
+            alt="별"
+          />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img
+            src="img/star.png"
+            alt="별"
+          />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img
+            src="img/star.png"
+            alt="별"
+          />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img
+            src="img/star.png"
+            alt="별"
+          />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img
+            src="img/star.png"
+            alt="별"
+          />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img src="img/star.png" alt="별" />
+        </marquee>
+      </div>
+    </section>
+
+    <section id="work">
+      <div class="contents_tit">
+        <h2><a href="#">WORK</a></h2>
+      </div>
+
+      <div id="work_list">
+        <!-- 첫번째 랜디스 도넛 -->
+        <div id="work1">
+          <div class="work_left">
+            <img src="img/mockup1.png" alt="랜디스도넛" />
+          </div>
+          <div class="work_right">
+            <div class="work_txtbox work_txtbox1">
+              <p class="work_subtit"><a href="#">Randy's Donuts</a></p>
+              <p class="work_keyword"><mark class="mark2">#고정형</mark></p>
+              <p class="work_txt">
+                HTML과 CSS와 JQUERY를 이용하여 구현한 사이트입니다. 메인페이지와
+                5개의 서브페이지를 제작하였습니다. 플로그인을 사용하였으며 ,
+                풀다운 네비게이션을 구현하였습니다.
+              </p>
+
+              <div class="work_btn">
+                <span class="visit_btn1 visit_btn">
+                  <a href="#" title="랜디스도넛 스타일가이드" target="_blank1">
+                    STYLE GUEID
+                  </a>
+                </span>
+
+                <span class="visit_btn2 visit_btn">
+                  <a href="#" title="랜디스도넛 바로가기" target="_blank2">
+                    VIEW SITE
+                  </a>
+                </span>
+              </div>
+              <!--work_btn-->
+            </div>
+          </div>
+          <!--work_right-->
+        </div>
+        <!--work1-->
+
+        <!-- 두번째 러쉬 -->
+        <div id="work2" class="work2">
+          <div class="work_left work_2">
+            <img src="img/mockup2.png" alt="러쉬" />
+          </div>
+          <div class="work_right">
+            <div class="work_txtbox work_txtbox2">
+              <p class="work_subtit"><a href="#">Lush</a></p>
+              <p class="work_keyword"><mark class="mark2">#반응형</mark></p>
+              <p class="work_txt">
+                여러가지 디바이스에서 이용하기 편하게 반응형 사이트로
+                제작하였으며, 모바일 버전에서는 사용자의 편의성을 고려하여
+                터치에 반응하는 swiper 플로그인을 연결하였으며, 이 외에 모바일
+                아코디언 메뉴, 반응형 비주얼 슬라이드, 제품 슬라이드등을
+                구현하였고 애니메이션 효과를 주어 홈페이지를 생동감있게
+                구현하였습니다.
+              </p>
+
+              <div class="work_btn">
+                <span class="visit_btn1 visit_btn">
+                  <a href="#" title="러쉬 스타일가이드" target="_blank1">
+                    STYLE GUEID
+                  </a>
+                </span>
+
+                <span class="visit_btn2 visit_btn">
+                  <a href="#" title="러쉬 바로가기" target="_blank2">
+                    VIEW SITE
+                  </a>
+                </span>
+              </div>
+              <!--work_btn-->
+            </div>
+          </div>
+          <!--work_right-->
+        </div>
+        <!--work2-->
+      </div>
+      <!--work_list-->
+    </section>
+
+    <section id="contact">
+      <div class="contents_tit">
+        <h2><a href="#">CONTACT</a></h2>
+      </div>
+      <div class="contact_box">
+        <div class="moon_c">
+          <img src="img/c_moontxt.png" alt="달" />
+          <span>달위치</span>
+        </div>
+
+        <div class="information">
+          <h2>CHOI YEONJIN</h2>
+          <p class="phone">Phone.&nbsp;&nbsp;&nbsp;&nbsp;010-2249-3556</p>
+          <p class="mail">Email. &nbsp;&nbsp;&nbsp;&nbsp;psm3560@naver.com</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
