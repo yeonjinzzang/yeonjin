@@ -1,0 +1,176 @@
+/* 미디어쿼리 */
+
+@media screen and (max-width: 1280px) {
+
+
+}
+
+@media screen and (max-width: 980px){
+  html{font-size: 18px;}
+ /* header{
+  position: fixed;
+} */
+.banner{
+  width: 100%;
+  margin: auto;
+ position: relative; 
+}
+.wrap_Lush .menus_L{
+  width: 33.3333%;
+}
+  .tab button{
+    width:47.966102%;
+    margin-bottom: 24px;
+  }
+  .tab button img {
+    width: 50%;
+    margin-left: 28%;
+    display: inline-block;
+}
+  
+  .tab button p {
+    position: absolute;
+    font-size: 1rem;
+    top: 1.8rem;
+    left: 1rem;
+
+}
+.tab button p b {
+  font-size: 1.2rem;
+  margin-bottom: 0.1rem;
+}
+}
+
+@media screen and (max-width: 768px) {
+  html{font-size: 16px;}
+  .tab button img{
+    width: 70%;
+    display:inline-block;
+    margin-left:0;
+  }
+
+  
+  /* 1 */
+  .banner .background_L1{
+    width: 20.083333%;
+    left:24.739583%;
+   top:82.66667%;
+  }
+ 
+/* 2 */
+.banner .background_L2{
+  width: 68.489583%;
+  left: 2.34375%;
+ top:16.6666667%;
+}
+
+/* 3 */
+
+.banner .background_L3{
+  width: 58.8541667%;
+  left: -15%;
+ top:34.3333333%;
+}
+
+/* 4 */
+.banner .background_L4{
+  width:21.484375%;
+  right:9.11458333%;
+  top:35.33333%;
+}
+
+
+}
+@media screen and (max-width: 480px) {
+  html{font-size: 14px;}
+  .wrap_Lush .menus_L{
+    width: 50%;
+  }
+  .tab button p {
+
+    font-size: 0.7rem;
+    top: 1.4rem;
+    left: 1rem;
+}
+.tab button p b {
+
+  font-size: 1rem;
+  margin-bottom: 0.1rem;
+}
+
+/* 2 */
+.banner .background_L2{
+  width:74.583333%;
+ top:17.3333333%;
+}
+
+/* 3 */
+
+.banner .background_L3{
+  width:75.8333333%;
+  left: -21%;
+ top:34.8%;
+}
+
+/* 4 */
+.banner .background_L4{
+  width:24.1666667%;
+  right:7.5%;
+  top:38.4%;
+}
+
+
+
+}
+@media screen and (max-width: 390px) {
+  .tab {
+    margin: 4rem auto 0;
+}
+  .tab button p {
+    font-size: 0.7rem;
+    top: 1rem;
+    left: 1rem;
+   
+}
+.tab button img {
+  width: 70%;
+  display: inline-block;
+  image-orientation: bottom;
+  display: block;
+}
+#contain_Lush {
+  margin: 4rem auto 0;
+}
+}
+
+  @media screen and (max-width: 375px) {
+    .wrap_Lush .menus_L{
+      width: 50%;
+    }
+    .tab button{
+      width:47.966102%;
+      margin-bottom: 12px;
+    }
+
+    .tab button img{
+      object-fit: cover;
+      display:block;
+      
+    }
+    .tab button p {
+      display: none;
+  }
+   .tab button .txt1 {
+    font-family: "GmarketSans_M";
+    font-size: 1.14285714rem;
+    top: 1.2rem;
+    left: 1rem;
+    font-weight: bold;
+    display: block;
+}
+
+  #contain_Lush .title {
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+}
+  }

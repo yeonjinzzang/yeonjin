@@ -1,0 +1,396 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>home</title>
+<script src="https://kit.fontawesome.com/632d3e2496.js" crossorigin="anonymous"></script>
+<!--외부정의 css-->
+<link href="css/reset.css" rel="stylesheet">
+<link href="css/header.css" rel="stylesheet">
+<link href="css/home.css" rel="stylesheet">
+<link href="css/footer.css" rel="stylesheet">
+<!--제이쿼리 라이브러리-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="js/header.js"></script>
+<script src="js/home.js"></script>
+ <!-- AOS 라이브러리 불러오기-->
+ <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> 
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+ <!-- swiper -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+<link rel="stylesheet" href="css/animate.css">
+<!--파비콘-->
+<!--<link rel="icon" type="image/ico" sizes="16x16" href="img/favicon.ico">-->
+</head>
+<body>
+  <header>
+    <div class="navi">
+      <div class="logo"><a href="index.html"><img src="img/logo4.png" art="logo" ></a></div>
+      <nav class="bar">
+        <ul class="bar_l">
+          <li><a class="to-right-underline" href="brandstory.html">BRAND</a></li>
+          <li><a class="to-right-underline" href="sub_menu.html">MENU</a></li>
+          <li><a class="to-right-underline" href="store.html">STORE</a></li>
+          <li><a class="to-right-underline" href="envet.html">EVENT</a></li>
+          <li><a class="to-right-underline" href="contact.html">CONTACT</a></li>
+        <ul>
+      </nav>
+      <nav class="bar2">
+        <ul class="sns_l">
+          <li class="login"><a href="#"><img src="img/person4.png" art="login"></a></li>
+          <li class="search"><a href="#"><img src="img/search4.png" art="search"></a>
+          </li>
+        </ul><!--sns_l-->
+      </nav>
+      <div class="navi_H">
+        <div class="content">
+          <div class="photo">
+            <img src="img/photo_H.png" alt="사진">
+          </div>
+          <ul class="list1">
+            <li><a href="brandstory.html">브랜드 스토리</a></li>
+          </ul>
+          <ul class="list2">
+            <li><a href="sub_menu.html">베스트</a></li>
+            <li><a href="sub_menu.html">클래식 도넛</a></li>
+            <li><a href="sub_menu.html">디럭스 도넛</a></li>
+            <li><a href="sub_menu.html">팬시 도넛</a></li>
+            <li><a href="sub_menu.html">프리미엄 도넛</a></li>
+          </ul>
+          <ul class="list3">
+            <li><a href="store.html">매장소개</a></li>
+          </ul>
+          <ul class="list4">
+            <li><a href="envet.html">진행 이벤트</a></li>
+            <li><a href="envet.html">종료 이벤트</a></li>
+            <li><a href="envet.html">당첨자 발표</a></li>
+          </ul>
+          <ul class="list5">
+            <li><a href="contact.html">문의사항</a></li>
+          </ul>
+        </div>
+      </div>
+    </div><!--navi-->
+    
+  </header><!--header end-->
+
+  <!--home stalt-->
+  <div class="main_1">
+    <button type="button" onclick="location.href='sub_menu.html'"> 다양한 도넛 보러가기</button>
+  </div><!--main_1-->
+
+  <div class="best_m fadeInDown">
+    <div class="txt_b">
+      <h1>BEST MENU</h1>
+      <p class="txt1">모든 사람들이 좋아하는</p>
+      <p class="txt2">랜디스 도너츠</p>
+      <button type="button" class="button" onclick="location.href='sub_menu.html'">랜디스 도넛 더보기!</button>
+    </div><!--txt_b-->
+   
+    <ul class="best_B">
+      <li class><a href="#"><img src="img/best1.png" alt="베스트메뉴1"></a></li>
+      <li class><a href="#"><img src="img/best2.png" alt="베스트메뉴2"></a></li>
+      <li class><a href="#"><img src="img/best3.png" alt="베스트메뉴3"></a></li>
+      <li class><a href="#"><img src="img/best4.png" alt="베스트메뉴4"></a></li>
+      <li class><a href="#"><img src="img/best5.png" alt="베스트메뉴5"></a></li>
+      <li class><a href="#"><img src="img/best6.png" alt="베스트메뉴6"></a></li>
+    </ul>
+    <hr>
+    
+  </div><!--best_m-->
+
+  <div class="swiper banner_b fadeInDown">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="img/main2.png" alt="메인1"></div>
+      <div class="swiper-slide"><img src="img/R_m2.png" alt="메인1"></div>
+      <div class="swiper-slide"><img src="img/main3.png" alt="메인1"></div>
+    </div>
+    <div class="swiper-button-next">
+      <img src="img/next_1.png" alt="next">
+    </div>
+    <div class="swiper-button-prev">
+      <img src="img/prev_1.png" alt="prev">
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+  
+  
+  <!-- <div class="banner_b">
+    <div class="banner">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li> 
+      </ul>
+      <div class="icon_b">
+        <button type="button" class="prev">
+          <img src="img/prev_1.png" alt="prev">
+        </button>
+        <button type="button" class="next">
+          <img src="img/next_1.png" alt="next">
+        </button>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </div> -->
+
+  <div class="map_w">
+    <div class="map_t">
+      <h1><img src="img/map_txt40.png" alt="txt"></h1>
+    </div>
+
+    <div class="button tab1">
+      <button class="active" type="button">서울 연남점</button>
+      <button type="button">서울 가로수길점</button>
+      <button type="button">서울 안국점</button>
+      <button type="button">대구 동성로점</button>
+      <button type="button">제주 애월점</button>
+    </div>
+
+    <div id="contain_m">  
+      <div class="map_C">
+        <div class="wrap_m">
+          <div class="frame">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.7056862179065!2d126.92194485121723!3d37.56199733204599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c99ce45a8258f%3A0x23d1812298978dfc!2z656c65SU7Iqk64-E64SbIOyXsOuCqOygkA!5e0!3m2!1sko!2skr!4v1665220789036!5m2!1sko!2skr" width="578" height="578" style="border:0;"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>               
+          <div class="map_L wrap_1">
+            <div class="map_I location">
+              <div class="icon"><img src="img/location.png" alt="location"></div>
+              <p>서울특별시 마포구 등교로247</p>
+            </div><!--location-->
+            <div class="map_I time">
+              <div class="icon"><img src="img/clock.png" alt="clock"></div>
+              <p>Mon to Sun / AM11:00-PM21:00</p>
+            </div><!--time-->
+            <div class="map_I phone">
+              <div class="icon"><img src="img/phone.png" alt="phone"></div>
+              <p>02-322-0621</p>
+            </div><!--phone-->
+            <div class="map_I parking">
+              <div class="icon"><img src="img/parking.png" alt="parking"></div>
+              <p>불가능</p>
+            </div><!--parking-->
+          </div><!--map_L-->
+        </div> 
+      </div>
+      <div class="map_C">
+        <div class="wrap_m">
+          <div class="frame">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.516495895796!2d127.02180671564707!3d37.51932033458774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca326f19b6c7b%3A0xf8b7fa907a862c89!2z656c65SU7Iqk64-E64SbIOqwgOuhnOyImOq4uOygkA!5e0!3m2!1sko!2skr!4v1666519634779!5m2!1sko!2skr" width="578" height="578" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="map_L wrap">
+            <div class="map_I location">
+              <div class="icon"><img src="img/location.png" alt="location"></div>
+              <p>서울특별시 강남구 도산대로 15길 16</p>
+            </div><!--location-->
+            <div class="map_I time">
+              <div class="icon"><img src="img/clock.png" alt="clock"></div>
+              <p>Mon to Sun / AM11:00-PM21:00</p>
+            </div><!--time-->
+            <div class="map_I phone">
+              <div class="icon"><img src="img/phone.png" alt="phone"></div>
+              <p>02-511-3255</p>
+            </div><!--phone-->
+            <div class="map_I parking">
+              <div class="icon"><img src="img/parking.png" alt="parking"></div>
+              <p>불가능</p>
+            </div><!--parking-->
+          </div><!--map_L-->  
+        </div>
+      </div>
+      
+      <div class="map_C">
+        <div class="wrap_m">
+          <div id="frame">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.0616744812073!2d126.98360481576792!3d37.5771653797959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca3f76795c013%3A0x81f0c96aeafcd966!2z656c65SU7Iqk64-E64SbIOyViOq1reygkA!5e0!3m2!1sko!2skr!4v1666519808514!5m2!1sko!2skr" width="578" height="578" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>      
+          <div class="map_L wrap">
+            <div class="map_I location">
+              <div class="icon"><img src="img/location.png" alt="location"></div>
+              <p>서울특별시 종로구 북촌로3, 1층(재동)7</p>
+            </div><!--location-->
+            <div class="map_I time">
+              <div class="icon"><img src="img/clock.png" alt="clock"></div>
+              <p>Mon to Sun / AM11:00-PM21:00</p>
+            </div><!--time-->
+            <div class="map_I phone">
+              <div class="icon"><img src="img/phone.png" alt="phone"></div>
+              <p>02-747-0621</p>
+            </div><!--phone-->
+            <div class="map_I parking">
+              <div class="icon"><img src="img/parking.png" alt="parking"></div>
+              <p>불가능</p>
+            </div><!--parking-->
+          </div><!--map_L-->
+        </div>
+      </div>
+     
+      <div class="map_C">
+        <div class="wrap_m">
+          <div class="frame">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3233.2076655356655!2d128.5961645157301!3d35.868427480151084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3565e335bcc0281b%3A0x8d9ab5db3ed3ff50!2z656c65SU7Iqk64-E64SbIOuMgOq1rOuPmeyEseuhnOygkA!5e0!3m2!1sko!2skr!4v1666519981181!5m2!1sko!2skr" width="578" height="578" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>         
+          <div class="map_L wrap">
+            <div class="map_I location">
+              <div class="icon"><img src="img/location.png" alt="location"></div>
+              <p>대구광역시 중구 공평동 동성로6길 56</p>
+            </div><!--location-->
+            <div class="map_I time">
+              <div class="icon"><img src="img/clock.png" alt="clock"></div>
+              <p>Mon to Sun / AM11:00-PM21:00</p>
+            </div><!--time-->
+            <div class="map_I phone">
+              <div class="icon"><img src="img/phone.png" alt="phone"></div>
+              <p>053-255-1222</p>
+            </div><!--phone-->
+            <div class="map_I parking">
+              <div class="icon"><img src="img/parking.png" alt="parking"></div>
+              <p>불가능</p>
+            </div><!--parking-->
+          </div><!--map_L-->
+        </div>
+      </div>
+
+      <div class="map_C">
+        <div class="wrap_m">
+          <div class="frame">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.5437706789185!2d126.31163269999998!3d33.4611909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350cf5c091239a6f%3A0xe541362bdb8affe1!2z656c65SU7Iqk64-E64SbIOygnOyjvOyVoOyblOygkA!5e0!3m2!1sko!2skr!4v1666520028677!5m2!1sko!2skr" width="578" height="578" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="map_L wrap">
+            <div class="map_I location">
+              <div class="icon"><img src="img/location.png" alt="location"></div>
+              <p>제주도 제주시 애월읍 애월리 2471</p>
+            </div><!--location-->
+            <div class="map_I time">
+              <div class="icon"><img src="img/clock.png" alt="clock"></div>
+              <p>Mon to Sun / AM10:00-PM19:00</p>
+            </div><!--time-->
+            <div class="map_I phone">
+              <div class="icon"><img src="img/phone.png" alt="phone"></div>
+              <p>064-799-0610</p>
+            </div><!--phone-->
+            <div class="map_I parking">
+              <div class="icon"><img src="img/parking.png" alt="parking"></div>
+              <p>가능</p>
+            </div><!--parking-->
+          </div><!--map_L-->
+        </div>
+      </div> <!--map_C-->           
+    </div><!--contain_m-->
+  </div><!--map_w-->
+
+    <div class="brs_t">
+      <button type="button" onclick="location.href='brandstory.html'">랜디스 스토리 보러가기</button>
+    </div>
+
+  
+  <div class="brs_b">
+    <div class="brs_l">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div class="txt">
+            <p>최고의 재료, 수제도넛만의 특별함</p>
+          </div><!--txt-->
+        </div><!--flip-card-front-->
+        <div class="flip-card-back">
+          <p>랜디스도넛만의 최고의 재료와<br> 
+            특별한 비법으로 완성된 도넛은<br>
+            더욱 풍성한 맛을 선사하며,<br> 
+            신선함은 오래도록 유지됩니다.<br>
+            게다가 모든 도넛이 정확히<br> 
+            같은 모양이 아니라는 점은<br>
+            수제 도넛만의 특별함 입니다.</p>
+        </div>
+      </div><!--flip-card-inner-->
+    </div><!--brs_l-->
+
+    <div class="brs_l">
+      <div class="flip-card-inner">
+        <div class="flip-card-front front2">
+          <div class="txt">
+            <p>도넛 전문가가 만드는 신선한 도넛</p>
+          </div><!--txt-->
+        </div><!--flip-card-front-->
+        <div class="flip-card-back">
+          <p>69년 역사의 랜디스도넛은 매장에서<br>
+            직접 만든  특별한 수제 도넛입니다.<br>
+            매장에서 직접 만드는<br> 
+            신선한 도넛을  맛보기 위해<br>
+            고객들은 LA 잉글우드 랜디스도넛<br> 
+            매장 앞에 길게 줄 서있습니다.</p>
+        </div>
+      </div><!--flip-card-inner-->
+    </div><!--brs_l-->
+
+    <div class="brs_l">
+      <div class="flip-card-inner">
+        <div class="flip-card-front front3">
+          <div class="txt">
+            <p>미국 언론의 극찬과 다양한 수상</p>
+          </div><!--txt-->
+        </div><!--flip-card-front-->
+        <div class="flip-card-back">
+          <p>꾸준히 미국 최고의<br>
+            도넛 브랜드로 언급되었으며,<br>
+            미국 최고의 맛집 평가사이트인<br>
+            Yelp 및 다양한 평가 사이트에서<br>
+            가장 높은 평가를 받은<br>
+            도넛 매장 중 하나입니다.</p>
+        </div>
+      </div><!--flip-card-inner-->
+    </div><!--brs_l-->
+  </div><!--brs_b-->
+
+
+ 
+
+
+  <div class="sns">
+    <div class="txt">
+      <h2>RANDYS DONUTS SNS</h2>
+      <p class="t1">sweet Break</p>
+      <hr>
+      <p class="t2">SNS에서 랜디스 도너츠를 만나보세요</p>
+     </div><!--txt-->
+    <div class="sns_icon">
+      <a href="https://www.facebook.com/randysdonutskr"><img src="img/facebook.png" alt="facebook"></a>
+      <a href="https://www.instagram.com/randysdonuts1952kr/"><img src="img/instagram.png" alt="instagram"></a>
+    </div><!--sns_icon-->
+    <div id="swiper">
+      <div class="imgSlide">
+        <ul class="imgGroup">
+          <li class="box_l"><img src="img/sns1.png" alt="sns1"></li>
+          <li class="box_l"><img src="img/sns2.png" alt="sns2"></li>
+          <li class="box_l"><img src="img/sns3.png" alt="sns3"></li>
+          <li class="box_l"><img src="img/sns4.png" alt="sns4"></li>
+          <li class="box_l"><img src="img/sns6.png" alt="sns5"></li>
+          <li class="box_l"><img src="img/sns5.png" alt="sns6"></li>
+        </ul>
+      </div><!--imgSlide-->
+      <button type="button" class="prev">
+        <img src="img/prev_o.png" alt="prev">
+      </button>
+      <button type="button" class="next">
+        <img src="img/next_o.png" alt="next">
+      </button>
+    </div>
+  </div><!--sns end-->
+
+  <!--footer stalt-->
+  <div class="footer">
+    <div class="txt">
+      <h2><img src="img/footer_txt.png" alt="txt"></h2>
+      <p>서울특별시 마포구 동교로 247 4층, 5층<br>
+        사업자등록번호 : 565-87-01114<br>  
+        대표 번호 : 02-6954-0621 · 대표 메일 : randysdonuts@rapport-l.com<br>
+        Copyright ⓒ 2019, Randy's Donuts. All Rights Reserved</p>
+     </div><!--txt end-->
+  </div><!--footer end-->
+   
+   
+
+
+  
+</body>
+</html>

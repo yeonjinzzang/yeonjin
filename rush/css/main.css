@@ -1,0 +1,961 @@
+/* 
+header{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+
+  z-index: 5;
+} */
+
+/* header h1 img{
+  display: block;
+  position: relative; 
+  top:50%;
+  transform: translateY(-50%);
+} */
+/* 
+header a{
+  font-size: 0.9rem;
+  font-family: "GmarketSans_M";
+  font-weight: bold;
+}
+header .container{
+  padding: 0 10px;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gnb{
+  display:flex;
+  line-height: 100px;
+}
+.gnb li{
+  display:flex;
+  font-size: 0.9rem;
+  margin-left: 32px;
+}
+header .main-navigation a{
+  margin-left: 32px;
+  color:#222
+} */
+/* header .main-navigation a.active{
+  border-bottom: 2px solid #222;
+} */
+/* header .logo img{
+  width: 100%;
+} */
+.hero-bg{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  aspect-ratio: 16 / 9; 
+  /* 16:9 비율 지정 */
+}
+
+
+.hero-bg .text-wrap{
+ position: absolute;
+ z-index: 1;
+ top:350px;
+ left:447px;
+}
+.hero-bg .text-wrap .txt1{
+  font-size: 1.7rem;
+  font-family: "Gloss_And_Bloom";
+}
+.hero-bg .text-wrap .txt2{
+  font-family: "GmarketSans_M";
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: 2.8rem;
+}
+.hero-bg .text-wrap .txt3{
+  font-family: "GmarketSans_M";
+}
+.video-wrap{
+  position:absolute;
+  width: 100%;
+
+  z-index: 1;
+}
+.video-wrap video,
+.video-wrap img{
+  position: absolute;
+  display: block;
+  width: 100%;
+  
+} 
+
+/* .toggleBtn{
+  position:absolute;
+  top:1.2rem;
+  right:1.5rem;
+  color:var(--accent-color);
+  cursor:pointer;
+  font-size:1.2rem;
+  display:none;
+} */
+/* slick */
+.main_A{
+  width: 100%;
+  height: 959px;
+  position: relative;
+  overflow: hidden;
+}
+.main_A .main{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+
+  z-index: 1;
+}
+.main_A .main div{
+  position: absolute;
+  border-radius: 50%;
+  animation: gradient 4s infinite;
+}
+@keyframes gradient{
+  70%{
+    transform: scale(1.2) translate(50px);
+  }
+}
+.main_A .main div:nth-child(1){
+  height: 90%;
+  width: 80%;
+  background-color: #c4bde9;
+  left: -20%;
+  top:-10%;
+
+}
+.main_A .main div:nth-child(2){
+  height: 80%;
+  width: 80%;
+  background-color: #f0aae1;
+  top: -12%;
+  right: -12%;  
+}
+.main_A .main div:nth-child(3){
+  height: 65%;
+  width: 80%;
+  background-color: #b39ce4;
+  bottom: -15%;
+  right: -20%;  
+}
+.main_A .main div:nth-child(4){
+  height: 50%;
+  width: 80%;
+  background-color: #b8ade6;
+ bottom: -10%;
+ left: -18%;
+}
+.main_A .main:after{
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  backdrop-filter: blur(80px);
+}
+/* main 이미지 */
+.main_A .banner_I{
+  position: absolute;
+  z-index: 2;
+  top:41.6%;
+  left:34%;
+}
+.main_A .banner_I img{
+width: 100%;
+}
+/* main 글씨 */
+.main_A .text-wrap{
+  position: absolute;
+  z-index: 1;
+  top:32%;
+  left:19%;
+ }
+.main_A .text-wrap .txt1{
+   font-size: 1.7rem;
+   font-family: "Gloss_And_Bloom";
+ }
+.main_A .text-wrap .txt2{
+   font-family: "GmarketSans_M";
+   font-weight: bold;
+   margin-bottom: 1rem;
+   font-size: 2.8rem;
+ }
+.main_A .text-wrap .txt3{
+   font-family: "GmarketSans_M";
+ }
+/*new*/
+#new{
+  width: 100%;
+max-width: 1200px;
+  margin: auto;
+}
+#new .title{
+  background: url(../img/txt_bg.png) center no-repeat;
+  background-position: top;
+  background-size:contain;
+  margin: auto;
+  text-align: center;
+  margin:100px 0px;
+}
+#new .title .txt1{
+ font-family: "Montserrat-Bold";
+ font-size: 2.4rem;
+ color: #2b2b2b;
+ margin-bottom: 0.8rem;
+
+ 
+}
+#new .title .txt2{
+  font-family: "GmarketSans_M";
+  font-size: 1.1rem;
+}
+
+/* .slider-wrap{width: 100%;} */
+.slick{
+  width: 100%;
+  max-width: 1200px;
+  padding: 0px 0.5rem;
+  margin: auto;
+  display: flex;
+  position: relative;
+  overflow:hidden;
+
+}
+
+.slick-dots {
+position: static !important;
+margin-top: 20px !important;
+
+}
+.slick-dots li{
+  width: 22px !important;
+  height: 22px !important;
+}
+.slick .cons{
+  padding:0 0.6rem;
+}
+/* .slick .cont:last-child{
+  padding: 0;
+} */
+.slick .list1{
+  width: 23.4745763%;
+}
+.slick .list1 .img_L{
+  width: 100%;
+  background-color: #eaeaea;
+}
+.slick .list1 .img_L img{
+  width: 100%;
+  
+}
+.slick .txt_L{
+  width: 100%;
+  background-color: #f8f8f8;
+  overflow: hidden;
+}
+.slick .txt1_L,
+.slick .txt2_L{
+  text-align: center;
+}
+.slick .txt1_L{
+  font-family: "SpoqaHanSansNeo_R";
+  font-weight: bold;
+  color: #2b2b2b;
+  font-size: 1.2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 0.7rem;
+}
+.slick .txt2_L{
+  font-family: "SpoqaHanSansNeo_R";
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: #4b4b4b;
+  padding-bottom: 1.5rem;
+}
+.slick .txt3_L,
+.slick .txt4_L{
+  line-height: 1.8rem;
+  padding-left: 0.7rem;
+  font-weight: bold;
+  color: #6b6b6b;
+  font-size: 0.9rem;
+}
+
+.slick .txt3_L>b,
+.slick .txt4_L>b{
+  color: #2b2b2b;
+}
+
+.slick .txt4_L{
+  padding-bottom:0.5rem;
+}
+.slick .txt_L hr{
+  width: 100%;
+ 
+}
+.slick .txt_L .hr1{
+  background-color:#2a2a2a;
+  height: 2px;
+}
+.slick .txt_L .hr2{
+  background-color: #b5b5b5;
+}
+
+.slick-dots li button:before {
+  font-family: 'slick';
+  font-size: 30px !important;
+  opacity: .25;
+  color: rgb(180, 106, 118) !important;
+}
+
+/*best*/
+#best_P{
+  width: 100%;
+max-width: 1200px;
+  margin: auto;
+}
+#best_P .title{
+  background: url(../img/txt_bg.png) center no-repeat;
+  background-position: top;
+  background-size:contain;
+  margin: auto;
+  text-align: center;
+  margin:100px 0px;
+}
+#best_P .title .txt1{
+ font-family: "Montserrat-Bold";
+ font-size: 2.4rem;
+ color: #2b2b2b;
+ margin-bottom: 0.8rem;
+}
+#best_P .title .txt2{
+  font-family: "GmarketSans_M";
+  font-size: 1.1rem;
+}
+/* lush_b1 */
+
+/* Spotlight */
+
+.wraps.alt {
+  padding: 0;
+}
+.spotlight {
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  display: flex;
+  margin-bottom: 7.5rem;
+}
+
+.spotlight .cont{
+padding-left: 18.5rem;
+}
+
+.spotlight .content h2 img{
+  width: 17rem;
+ }
+ .spotlight .conten h2 img{
+  width: 17rem;
+ }
+ 
+
+ /* more 버튼 */
+ .spotlight .more{
+  padding-top: 1rem;
+ }
+ .more a {
+  position: relative;
+  text-decoration: none;
+  color:#9d80ad;
+  font-family: "Inter", sans-serif;
+  padding: 0.2rem 0;
+}
+.more a::before {
+
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width:106%;
+  height: 2px;
+  transform-origin: right;
+  transform: scaleX(0);
+  background: rgb(238,174,202);
+  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  transition: transform  300ms ease;
+  z-index: 1;
+}
+.more a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.more a:hover span::before {
+  transform: rotate(-45deg);
+}
+.more a:hover span::after {
+  transform: translateX(-1px) rotate(-45deg);
+}
+
+.more a span::before, .more a span::after {
+  content: "";
+  position: absolute;
+  right: -6%;
+  bottom: 0px;
+  background: rgb(238,174,202);
+  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  transition: transform  200ms cubic-bezier(0.3, 1.5, 0.5, 1);
+  transition-delay: 240ms;
+  z-index: 2;
+}
+.more a span::before {
+  width:1px;
+  height: 8px;
+  transform-origin: 0% 100%;
+  transform: rotate(-90deg);
+}
+.more a span::after {
+  height:1px;
+  width:8px;
+  transform-origin: 100% 0%;
+  transform: translateX(-1px) rotate(0deg);
+}
+
+ /* ====more버튼 end====== */
+
+  .spotlight .image {
+
+    border-radius: 0;
+    /* width: 50%; */
+  }
+  .spotlight .image:nth-child(2){
+    padding-left: 10rem;
+  }
+
+    .spotlight .image img {
+      border-radius: 0;
+      width: 100%;
+    }
+
+  .spotlight .content {
+    /* padding: 2em 4em 0.1em 4em ; */
+  padding-left: 18.5rem;
+    /* max-width: 48em; */
+    width: 50%;
+  }
+
+  
+  .spotlight .conten {
+    /* padding: 2em 4em 0.1em 4em ; */
+  padding-left: 18.5rem;
+    /* max-width: 48em; */
+    width: 50%;
+  }
+
+  .spotlight .conten{
+    /* width: 50%; */
+    padding-left: 1rem;
+    padding-right: 18.5rem;
+  }
+  .spotlight .b_txt1{
+    font-family:"GmarketSans_M";
+    font-size: 1.1rem;
+    margin: 0.6rem 0;
+    }
+  .spotlight  .b_txt2{
+      font-size: 1rem;
+      margin-bottom: 2.5rem;
+      font-family: "SpoqaHanSansNeo_R";}
+       
+
+  .spotlight:nth-child(odd) {
+
+    flex-direction: row-reverse;
+  }
+	.spotlight .image {
+		border-radius: 3px;
+		border: 0;
+		display: inline-block;
+		position: relative;
+    /* width: 100%; */
+	}
+
+		.spotlight .image img {
+      /* width: 100%; */
+			border-radius: 3px;
+			display: block;
+      /* width: 70%; */
+		}
+
+    .spotlight  .detail{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+     
+    
+    }
+    .spotlight .cont .detail>img{
+    width: 32%;
+    }
+    .spotlight .conten .detail>img{
+      width: 32%;
+      }
+    /* contents */
+    #contents {
+   /* height: 100%;  */
+   position: relative;
+    }
+    #contents .bg{
+      /* height: 100vh; */
+      width: 100%;
+      /* height: 204.21875vw; */
+      /* height:100%; */
+      /* padding-bottom: 0; */
+      background: url(../img/bg_full.png) no-repeat;
+      position: absolute;
+      /* background-size: cover; */
+      /* padding-top:calc(3921/1920*100%) ; */
+      /* padding-bottom: calc(3921/1920*100%); */
+
+
+    
+    }
+
+    /* about */
+#about{
+width: 100%;
+max-width: 1200px;
+margin: auto;
+}
+#about .title{
+  background: url(../img/txt_bg.png) center no-repeat;
+  background-position: top;
+  background-size:contain;
+  margin: auto;
+  text-align: center;
+  margin:100px 0px;
+}
+#about .title .txt1{
+ font-family: "Montserrat-Bold";
+ font-size: 2.4rem;
+ color: #2b2b2b;
+ margin-bottom: 0.8rem;
+}
+#about .title .txt2{
+  font-family: "GmarketSans_M";
+  font-size: 1.1rem;
+}
+
+
+img {
+  vertical-align: top;
+}
+
+/* body {
+  background-color: #111;
+  font-family: 'arial';
+  line-height: 1.45;
+  color: #999;
+} */
+
+
+.wrapper {
+ 
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.wrappers {
+ 
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+padding: 0px 10px;
+overflow: hidden;}
+
+.wrappers ul{
+  padding-left: 0;
+}
+.lush{
+  width: 100%;
+  background-color: #111;
+   overflow: hidden;
+  display: flex;
+
+}
+
+
+.lush-item {
+  background-color: #111;
+width: 25%;
+  overflow: hidden;
+  transition: all .4s;
+  display: flex;
+  position: relative;
+  opacity: 0.4;
+  flex:1; /* 모두 같은 너비로 지정 */
+}
+
+.lush-item-cover {
+  flex-shrink: 0;
+}
+.lush-item.active{ /* active가 있는 요소는 기본 너비가 넓게 나타나도록 */
+  flex:2;
+  opacity: 1;
+}   
+.lush-item.active .lush-item-contents
+   {  
+    opacity: 1;
+  }
+
+.lush-item-contents {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255,255,255,0.7);
+  margin: 1rem;
+  padding: 1rem;
+  overflow: hidden;
+  opacity: 0; 
+  transition: all .4s;
+  
+
+}
+
+.lush-item-contents .l_text1 {
+  font-family: "Gloss_And_Bloom";
+  font-weight: bold;
+  font-size: 0.8rem;
+  
+}
+.lush-item-contents .l_text2{
+  font-family:"GmarketSans_B";
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.lush-item-contents p {
+  width: auto;
+  color: #373636;
+
+ 
+}
+
+/* lush_I */
+.lush_I{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2.5rem;
+ 
+}
+.lush_I img{
+  
+  width: 100%;
+}
+
+
+/* #gift */
+#gift{
+  width: 100%;
+max-width: 1200px;
+  margin: auto;
+} 
+ #gift .title{
+  background: url(../img/txt_bg.png) center no-repeat;
+  background-position: top;
+  background-size:contain;
+  margin: auto;
+  text-align: center;
+  margin:100px 0px;
+}
+#gift .title .txt1{
+ font-family: "Montserrat-Bold";
+ font-size: 2.4rem;
+ color: #2b2b2b;
+ margin-bottom: 0.8rem;
+}
+#gift .title .txt2{
+  font-family: "GmarketSans_M";
+  font-size: 1.1rem;
+}   
+
+/* gift */
+.gifts{
+  max-width: 1200px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  margin: auto;
+  position: relative;
+}
+
+.gifts .gifts_L img{
+  width: 100%;
+
+
+}
+.gifts .gifts_L p{
+  font-family: "Gloss_And_Bloom";
+  font-weight: bold;
+  font-size: 1.2rem;
+  position: absolute;
+  top:2rem;
+  margin-left: 2rem;
+  line-height: 1.5rem;
+  color: #3b3b3b;
+}
+/* slick 화살표 커스텀 */
+.gifts .slick-prev,
+.gifts .slick-next
+{
+  position: absolute;
+  z-index: 10;
+  top:50%;
+  transform: translateY(-50%);
+}
+
+.gifts .slick-prev{
+  left: 3%;
+
+}
+.gifts .slick-next{
+right:4%;
+}
+
+.gifts .slick-prev:before{
+  content: "\f359";
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 200;
+}
+.gifts .slick-next:before{
+  content: "\f35a";
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 200;
+}
+.gifts .slick-prev:before,
+.gifts .slick-next:before {
+  background: -webkit-linear-gradient(63deg, rgba(223,125,226,0.8267682072829132) 33%, rgba(237,70,104,0.46262254901960786) 77%)!important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  font-size: 1.4rem !important;
+}
+
+
+
+/* gift_I */
+/* .gift_I{
+  max-width: 1200px;
+  padding: 0 0.5rem;
+  margin: auto;
+}
+.gift_I .gift_Ii{
+  width: 100%;
+}
+.gift_I .gift_Ii img{
+  width: 100%;
+}  */
+
+/* #event */
+#event{
+  width: 100%;
+max-width: 1200px;
+  margin: auto;
+}
+#event .title{
+  background: url(../img/txt_bg.png) center no-repeat;
+  background-position: top;
+  background-size:contain;
+  margin: auto;
+  text-align: center;
+  margin:100px 0px;
+}
+#event .title .txt1{
+ font-family: "Montserrat-Bold";
+ font-size: 2.4rem;
+ color: #2b2b2b;
+ margin-bottom: 0.8rem;
+}
+#event .title .txt2{
+  font-family: "GmarketSans_M";
+  font-size: 1.1rem;
+}
+
+/* event_b*/
+.event_b{
+  max-width: 1200px;
+  /* padding: 0 0.5rem; */
+  margin: 0 auto 5.8rem;
+}
+.event_b  .card{
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.event_b .box{
+  width:33.3333%;
+  padding:12px;
+}
+
+.event_b .box2{
+  background-color: #fff;
+  padding: 0.7rem;
+}
+
+.event_b .box img{width:100%; display:block;}
+
+.event_b .box .txt{
+  border:2px solid var(--gray);
+  border-top:none;
+  padding:var(--padding-mc);
+  text-align: center;
+}
+.event_b h2{
+  font-family: "GmarketSans_B";
+  font-size:1.2rem;
+  margin:1.5rem 0;
+}
+.event_b p{
+  font-family: "SpoqaHanSansNeo_R";
+  font-size:0.9rem;
+margin-bottom: 3.5rem;}
+
+/* lusg_Ip email입력 */
+.lush_Ip{
+  max-width: 1200px;
+  padding: 0 0.5rem;
+  margin: auto;
+  text-align: center;
+}
+.lush_Ip hr{
+  width: 20px;
+  background-color: #222;
+  margin: 0 auto 1.5rem;
+}
+.lush_Ip .lush_text1{
+  font-size: 2.4rem;
+  font-family: "Gloss_And_Bloom";
+  margin-bottom: 1.3rem;
+}
+.lush_Ip .lush_text2{
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+}
+.lush_Ip .input_wrap{
+  display: block;
+  position: relative;
+  width: 19.1rem;
+  margin:0 auto 7rem;
+}
+.lush_Ip input[type=email]{
+  width: 19.1rem;
+  height: 1.7rem;
+  border-radius: 0.85rem;
+  background-color: transparent;
+  /* letter-spacing: 2rem; */
+  padding:0 2rem;
+  position: absolute;
+  top:0;
+  left: 0;
+}
+.lush_Ip  .emailBtn{
+  position: absolute;
+  top:0;
+  left: 17.8rem;
+  line-height: 1.7rem;
+  font-weight: bold;
+  font-size: 0.8rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+ 
+}
+    /* footer */
+  /* footer{
+    
+    width: 100%;
+
+    object-fit: cover;
+    font-family: "GmarketSans_M";
+    background: url(../img/footer.png) no-repeat;
+
+    }
+  
+    footer > .wrap_F{
+    
+      max-width:1200px;
+      margin:auto;
+      color:#2b2b2b;
+      padding:0 0.5rem;
+      display:flex;
+      text-align: center;
+      justify-content: space-between; 
+      flex-wrap: wrap;
+
+    }
+    footer .menu{
+      width:100%;
+      display:flex;
+      justify-content: space-between;
+      line-height:1.17rem;
+      font-size: 0.8rem;
+      text-align: center;
+      padding-top: 5rem;
+  
+    }
+    footer .menu .st{
+      font-family: "GmarketSans_B";
+      font-size: 1.1rem;
+      margin-bottom: 1.4rem;
+    }
+
+    footer .sns_I{
+      max-width: 1200px;
+      width: 100%;
+    }
+    footer .icon{
+      max-width: 31.5rem;;
+    
+      margin:5rem auto 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+    }
+    footer .icon a{
+      margin-right:var(--padding-mc);
+      font-size:1.6rem;
+    }
+    footer .author{
+      width: 100%;
+      max-width:1200px;
+      margin:2.5rem auto 0;
+      border-top:2px solid #2b2b2b;
+      padding:2rem 0;
+      text-align: center;
+      color:#2b2b2b;
+      font-size: 0.7rem;
+    } */
+
+    
+  
+  

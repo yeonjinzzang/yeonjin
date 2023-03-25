@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "DX하늘구름";
+  src: url(../font/DXHanlgrum-KSCpc-EUC-H.ttf) format("truetype");
+  src: url(../font/DXHanlgrum-KSCpc-EUC-H.woff) format("woff");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  font-family: "DX하늘구름";
+}

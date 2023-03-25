@@ -1,0 +1,211 @@
+#contact_m {
+  width: 100%;
+  height: 390px;
+  margin: auto;
+  background: url(../img/bs_m.png) no-repeat;
+  padding-top: 125px;
+  box-sizing: border-box;
+}
+#contact_m > .txt {
+  text-align: center;
+  color: #fff;
+}
+#contact_m > .txt > .txt1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+#contact_m > .txt > .txt2 {
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+#contact_m > .txt > .txt3 {
+  font-size: 24px;
+}
+/*bs_m end*/
+
+/*infor*/
+#infor {
+  width: 100%;
+  height: 673px;
+  margin: auto;
+  padding: 100px 0px;
+  box-sizing: border-box;
+  background-color: #f2eee5;
+}
+#infor hr {
+  width: 1180px;
+  height: 2px;
+  background-color: #224468;
+  border: none;
+}
+#infor > .infor_C {
+  width: 1200px;
+  padding: 0px 10px;
+  box-sizing: border-box;
+  margin: auto;
+}
+#infor .txt > .txt1 {
+  font-size: 48px;
+  color: #224468;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 41px;
+}
+#infor .infor_s {
+  width: 1200px;
+  padding: 0px 110px;
+  box-sizing: border-box;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+#infor .infor_b {
+  width: 278px;
+}
+
+#infor .infor_b > .infor_bc {
+  width: 278px;
+  height: 140px;
+  background-color: #fff;
+  border: 1px solid #224468;
+}
+#infor .infor_b > .infor_bc > .logo {
+  text-align: center;
+  margin-top: 23px;
+  margin-bottom: 16px;
+}
+#infor .infor_b > .infor_bc > .txt1 {
+  font-size: 14px;
+  color: #5f5e5e;
+  text-align: center;
+}
+#infor .infor_b > .infor_bc > .txt2 {
+  font-size: 14px;
+  color: #9a9a99;
+  text-align: center;
+  line-height: 25px;
+}
+#infor .infor_b button {
+  width: 108px;
+  height: 28px;
+  font-family: "DX하늘구름";
+  background-color: #224468;
+  color: #fff;
+  font-size: 12px;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+}
+#infor .infor_b > .text_I {
+  text-align: center;
+  font-size: 14px;
+  width: 278px;
+  height: 80px;
+  margin-bottom: 74px;
+}
+#infor .infor_b > .text_I > .txt1 {
+  margin-top: 21px;
+  color: #232323;
+  line-height: 25px;
+}
+#infor .infor_b > .text_I > .txt2 {
+  line-height: 25px;
+  margin-bottom: 2px;
+  color: #5f5e5e;
+}
+
+#contact {
+  width: 100%;
+  height: 1416px;
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+#contact > .contact_m {
+  width: 1200px;
+  padding: 0px 10px;
+  height: 1162px;
+  margin: auto;
+  box-sizing: border-box;
+}
+#contact > .contact_m > .txt {
+  font-size: 48px;
+  color: #224468;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+#contact .contact_U {
+  width: 1180px;
+  height: 958px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+#contact .contact_U > .photo > img {
+  width: 578px;
+  height: 958px;
+}
+#contact > .contact_m > hr {
+  width: 1180px;
+  height: 2px;
+  background-color: #224468;
+  border: none;
+  margin-top: 100px;
+}
+#contact .contact_U > .form_C {
+  width: 578px;
+  height: 958px;
+  padding-top: 50px;
+  padding-left: 36px;
+  box-sizing: border-box;
+}
+
+#contact .contact_U > .form_C > .form_T label {
+  margin: 0;
+  padding: 0px;
+  font-size: 24px;
+  color: #4b4b4b;
+  vertical-align: baseline;
+}
+
+#contact .contact_U > .form_C > .form_T input[type="text"],
+#contact .contact_U > .form_C > .form_T select {
+  width: 310px;
+  height: 40px;
+  text-indent: 20px;
+  background-color: #fff;
+  border: 1px solid #cdccc8;
+  outline: 0;
+  border-radius: 8px;
+}
+#contact .contact_U > .form_C > .form_T .bar_dh {
+  margin: 0;
+}
+
+textarea {
+  width: 352px;
+  height: 200px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #cdccc8;
+  outline: 0;
+  font-size: 15px;
+  resize: none;
+  border-radius: 8px;
+}
+#contact .contact_U > .form_C > .form_T td {
+  padding-bottom: 40px;
+}
+#contact .contact_U > .form_C button {
+  font-family: "DX하늘구름";
+  font-size: 24px;
+  width: 178px;
+  height: 58px;
+  border: none;
+  background-color: #224468;
+  color: #fff;
+  border-radius: 20px;
+  margin-left: 146px;
+  margin-top: 30px;
+  cursor: pointer;
+}

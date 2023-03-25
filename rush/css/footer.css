@@ -1,0 +1,195 @@
+   /* footer */
+   footer{
+    
+    width: 100%;
+    margin-top: 100px;
+    object-fit: cover;
+    font-family: "GmarketSans_M";
+    background: url(../img/footer.png) no-repeat;
+
+    }
+  
+    footer > .wrap_F{
+    
+      max-width:1200px;
+      margin:auto;
+      color:#2b2b2b;
+      padding:0 0.5rem;
+      display:flex;
+      text-align: center;
+      justify-content: space-between; 
+      flex-wrap: wrap;
+
+    }
+    footer .menu{
+      width:100%;
+      display:flex;
+      justify-content: space-between;
+      line-height:1.17rem;
+      font-size: 0.8rem;
+      text-align: center;
+      padding-top: 5rem;
+    }
+    footer .menu .st{
+      font-family: "GmarketSans_B";
+      font-size: 1.1rem;
+      margin-bottom: 1.4rem;
+    }
+
+    footer .sns_I{
+      max-width: 1200px;
+      width: 100%;
+    }
+    footer .icon{
+      max-width: 31.5rem;;
+    
+      margin:5rem auto 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+    }
+    footer .icon a{
+      margin-right:var(--padding-mc);
+      font-size:1.6rem;
+    }
+    footer .author{
+      width: 100%;
+      max-width:1200px;
+      margin:2.5rem auto 0;
+      border-top:2px solid #2b2b2b;
+      padding:2rem 0;
+      text-align: center;
+      color:#2b2b2b;
+      font-size: 0.7rem;
+    }
+
+    @media screen and (max-width: 980px) {
+    
+      footer .menu{
+        width:90%;
+        margin: auto;
+    
+      }
+
+      footer .author{
+        width: 90%;
+    
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+
+      footer .sns_I{
+
+        width: 70%;
+        margin: auto;
+      }
+      footer .icon a{
+      
+        font-size:1.4rem;
+      }
+      
+
+  
+    }
+
+    @media screen and (max-width: 480px) {
+      footer{
+      
+        width: 100%;
+      
+        object-fit: cover;
+        font-family: "GmarketSans_M";
+        background: url(../img/footer.png) no-repeat;
+      
+        }
+      
+        footer > .wrap_F{
+        
+          max-width:1200px;
+          margin:auto;
+          color:#2b2b2b;
+          padding:0 0.5rem;
+          display:flex;
+          text-align: center;
+          justify-content: space-between; 
+          flex-wrap: wrap;
+      
+        }
+        footer .menu{
+          width:100%;
+          display:flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: flex-start;
+          line-height:1.17rem;
+          font-size: 0.8rem;
+          text-align: center;
+          padding-top: 5rem;
+        }
+        footer .menu ul{
+      
+          width: 100%;
+          text-align: center;
+          margin: 0;
+      
+        }
+        footer .menu li{
+          display: none;
+          margin: auto;
+          width: 100%;
+          text-align: center;
+          padding:0.5rem 0;
+        }
+        footer .menu li a{
+          display: block;
+          width: 100%;
+      
+        }
+        footer .menu .st{
+          font-family: "GmarketSans_M";
+          font-size: 1.1rem;
+          font-weight:bold;
+          margin-bottom: 0.5rem;
+          display: flex;
+          width: 100%;
+          color: #2b2b2b;
+          /* border: 1px solid #4b4b4b;
+          border-radius: 10px; */
+      
+        }
+        footer .menu li:hover{
+          /* background-color: #aadbcb; */
+          color: #7a9c91;
+          font-weight: bold;
+        }
+        
+      
+        footer .sns_I{
+      
+          width: 80%;
+        }
+        footer .icon{
+      
+          margin:2rem auto 0;
+        
+      
+        }
+        footer .icon a{
+          font-size:1.4rem;
+        }
+        footer .author{
+          width: 100%;
+      
+          margin:2rem auto 0;
+          border-top:2px solid #2b2b2b;
+          padding:2rem 0;
+          text-align: center;
+          color:#2b2b2b;
+          font-size: 0.7rem;
+        }
+  
+    }
+  
+    

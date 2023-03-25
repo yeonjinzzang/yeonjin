@@ -1,0 +1,492 @@
+/* main_1 start */
+.main_1 {
+  min-width: 1200px;
+  height: 670px;
+  background-image: url(../img/main.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.main_1 > button {
+  width: 278px;
+  height: 56px;
+  border-radius: 20px;
+  color: #fff;
+  border: none;
+  background-color: #d75b2f;
+  font-size: 18px;
+  font-family: "DX하늘구름";
+  cursor: pointer;
+  position: absolute;
+  bottom: 80px;
+  right: 50%;
+  transform: translateX(-300px);
+}
+.main_1 > button:hover {
+  background-color: #da4915;
+}
+/*main_1 end*/
+
+/*best_m start*/
+.best_m {
+  width: 1200px;
+  height: 1205px;
+  margin: auto;
+  padding: 100px 10px;
+  box-sizing: border-box;
+}
+.best_m > .txt_b {
+  font-family: "DX하늘구름";
+  text-align: center;
+  color: #d75b2f;
+}
+.best_m > .txt_b > h1 {
+  font-size: 40px;
+  margin-bottom: 18px;
+}
+
+.best_m > .txt_b > .txt1 {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+.best_m > .txt_b > .txt2 {
+  font-size: 16px;
+}
+
+.best_m .button {
+  width: 202px;
+  height: 54px;
+  border-radius: 20px;
+  color: #d75b2f;
+  border: none;
+  box-shadow: inset 0 0 0 3px #d75b2f;
+
+  background-color: transparent;
+  font-size: 16px;
+  font-family: "DX하늘구름";
+  margin: 30px 0px;
+  cursor: pointer;
+  position: relative;
+  text-transform: uppercase;
+  transition: all 0.4s;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.best_m .button:focus {
+  outline: none;
+}
+.best_m .button::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #d75b2f;
+  border: 3px solid #d75b2f;
+
+  top: 100%;
+  left: 0;
+  transition: all 0.4s;
+  z-index: -1;
+}
+.best_m .button:hover::before {
+  transform: translateY(-100%);
+}
+.best_m .button:hover {
+  color: #fff;
+}
+
+.best_m > .best_B {
+  width: 1200;
+  padding: 0px 10px;
+  box-sizing: border-box;
+  height: 780px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  margin-bottom: 32px;
+}
+
+.best_m > .best_B > li {
+  border: 1px solid #d0cec2;
+  box-shadow: 2px 2px 6px #ddd6d3;
+}
+
+.best_m > .best_B > li:hover {
+  border: 1px solid #b4b3b2;
+  box-shadow: 2px 2px 6px #8b8582;
+}
+.best_m > .best_B > li > a {
+  width: 378px;
+  height: 378px;
+  display: block;
+}
+
+.best_m > .best_B > li img {
+  width: 378px;
+  height: 378px;
+}
+
+.best_m > hr {
+  width: 1180px;
+  height: 2px;
+  background-color: #d0cec2;
+  border: none;
+}
+
+/*swiper*/
+
+.swiper {
+  width: 1920px;
+  height: 480px;
+  margin: 0px auto 30px;
+  position: relative;
+}
+.swiper > .swiper-wrapper {
+  width: 1920px;
+  height: 480px;
+  margin: 0px auto 0px;
+  transition: all 4s;
+}
+
+.swiper .swiper-slide {
+  transition: all 4s;
+}
+
+.swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper > .swiper-button-next {
+  position: absolute;
+  right: 200px;
+}
+.swiper > .swiper-button-prev {
+  position: absolute;
+  left: 200px;
+}
+.swiper .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+}
+.swiper .swiper-pagination-bullet-active {
+  width: 11px;
+  height: 11px;
+  background-color: #fff;
+}
+.swiper > .swiper-button-next::after,
+.swiper > .swiper-button-prev::after {
+  display: none;
+}
+
+/*banner end*/
+
+.map_w {
+  width: 1200px;
+  padding: 0px 10px;
+  box-sizing: border-box;
+  margin: auto;
+  border-top: 2px solid #d0cec2;
+}
+
+.map_w > .map_t {
+  width: 337px;
+  height: 40px;
+  margin: 68px auto 0px;
+  color: #d75b2f;
+  text-align: center;
+}
+.map_w button {
+  width: 200px;
+  height: 50px;
+  box-shadow: 0 0 0 2px #e95019 inset;
+  color: #d75b2f;
+  font-size: 20px;
+  font-family: "DX하늘구름";
+  background-color: transparent;
+  border-radius: 20px;
+  border: none;
+  margin: 40px 0px 45px;
+  cursor: pointer;
+
+  transition: 0.1s;
+}
+.map_w > .button {
+  display: flex;
+  justify-content: space-between;
+}
+.tab1 > button:hover {
+  background-color: #d75b2f;
+  color: #fff;
+}
+.tab1 > button.active {
+  background-color: #d75b2f;
+  color: #fff;
+}
+/*button end*/
+
+#contain_m > div {
+  display: none;
+}
+#contain_m > div:first-child {
+  display: block;
+}
+
+.map_w > #contain_m .wrap_m {
+  width: 1200px;
+  height: 608px;
+  padding: 0px 10px;
+  box-sizing: border-box;
+  border-bottom: 2px solid #d0cec2;
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.map_w .map_C .map_L {
+  width: 578px;
+  height: 578px;
+  padding: 68px 24px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: none;
+}
+
+.map_w .map_C .map_L > .map_I {
+  display: flex;
+  font-size: 24px;
+  color: #5a5a5a;
+}
+.map_w .map_C .map_L > .map_I > .icon {
+  margin-right: 22px;
+}
+/*map end*/
+
+/*brs_t start*/
+.brs_t {
+  min-width: 1200px;
+  height: 480px;
+  background-image: url(../img/brandstory1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 90px;
+  position: relative;
+}
+.brs_t > button {
+  width: 224px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: #d75b2f;
+  border: none;
+  font-family: "DX하늘구름";
+  color: #ffff;
+  font-size: 18px;
+  position: absolute;
+  top: 388px;
+  right: 50%;
+  transform: translateX(-140px);
+  cursor: pointer;
+}
+.brs_t > button:hover {
+  background-color: #da4915;
+}
+
+/*brs_b start*/
+.brs_b {
+  width: 1200px;
+  height: 483px;
+  padding: 0px 10px;
+  box-sizing: border-box;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.brs_b > .brs_l {
+  width: 378px;
+  height: 483px;
+  background: transparent;
+  perspective: 1000px; /*깊이감 설정(z축으로 1000px만큼의 깊이를 설정*/
+}
+/*이 요소는 앞면과 뒷면을 배치하는데 필요합니다.*/
+
+.brs_b .flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s; /*transform속성에 변환효과 적용*/
+  transform-style: preserve-3d;
+}
+
+.flip-card-front {
+  width: 378px;
+  height: 483px;
+  background-image: url(../img/brandstory2.png);
+  background-position: center;
+  color: #fff;
+  position: relative;
+}
+
+.brs_b > .brs_l .front2 {
+  background-image: url(../img/brandstory3.png);
+}
+
+.brs_b > .brs_l .front3 {
+  background-image: url(../img/brandstory4.png);
+}
+
+.flip-card-front > .txt {
+  width: 378px;
+  height: 87px;
+  background-color: #d75b2f;
+  text-align: center;
+  line-height: 87px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /*요소의 뒷면을 가려주는 속성*/
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  background-color: #224468;
+  font-size: 20px;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+  padding-top: 100px;
+  box-sizing: border-box;
+  transform: rotateY(
+    180deg
+  ); /*뒷면을 y축으로 180도 회전하여 화면에서 가려놓음*/
+}
+
+.brs_l:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/*brs_b end*/
+
+.sns {
+  width: 100%;
+  height: 718px;
+  padding-top: 100px;
+  box-sizing: border-box;
+  background-color: #f0e5c5;
+  position: relative;
+  margin: auto;
+}
+
+.sns > .txt {
+  text-align: center;
+}
+
+.sns h2 {
+  font-family: "DX하늘구름";
+  font-size: 36px;
+  color: #d75b2f;
+  margin-bottom: 2px;
+}
+
+.sns .t1 {
+  font-family: "Lucida Handwriting";
+  font-weight: bold;
+  font-size: 18px;
+  color: #224468;
+  margin-bottom: 20px;
+}
+
+.sns hr {
+  background-color: #d75b2f;
+  width: 60px;
+  height: 1px;
+  margin: 30px auto 30px;
+  border: none;
+}
+
+.sns .t2 {
+  font-family: "DX하늘구름";
+  color: #5a5a5a;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.sns > .sns_icon {
+  width: 88px;
+  height: 40px;
+  margin: auto;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sns > #swiper {
+  width: 100%;
+  height: 277px;
+  position: absolute;
+  margin: auto;
+}
+
+.sns > #swiper > .imgSlide {
+  width: 1200px;
+  height: 277px;
+  margin: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+
+  overflow: hidden;
+}
+.sns > #swiper .imgGroup {
+  width: 1806px;
+  height: 277px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  left: -301px;
+}
+.sns > #swiper .imgGroup > li {
+  width: 277px;
+  height: 277px;
+
+  overflow: hidden;
+}
+.sns > #swiper .imgGroup > li > img {
+  transition: all 0.2s;
+}
+.sns > #swiper .imgGroup > li > img:hover {
+  scale: 1.1;
+}
+.sns > #swiper > button {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.sns > #swiper > .prev {
+  top: 50%;
+  transform: translateY(-50%);
+  /* left: 324px; */
+  left: 12%;
+}
+.sns > #swiper > .next {
+  top: 50%;
+  transform: translateY(-50%);
+  /* right: 324px; */
+  right: 12%;
+}
+/*sns end*/

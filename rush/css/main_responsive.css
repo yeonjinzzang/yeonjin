@@ -1,0 +1,363 @@
+@media screen and (max-width: 1280px) {
+
+
+  .spotlight .image {
+    width: 45%;
+  }
+
+  .spotlight .content {
+    width: 55%;
+  }
+  .spotlight .conten {
+    width: 55%;
+  }
+  .spotlight .cont{
+    padding-left: 10rem;
+    }
+  .spotlight .conten{
+     padding-right: 10rem;
+    }
+
+  .slick{
+    max-width: 980px;
+     
+    }
+   /* main */
+   .main_A {
+    height: 1000px
+}
+   .main_A .text-wrap {
+    left: 10%;
+    top: 24%;
+    }
+    .main_A .banner_I {
+      position: absolute;
+      z-index: 2;
+      top: 48%;
+      left: 12%;
+    }
+
+}
+
+@media screen and (max-width: 980px) {
+  html{font-size: 18px;}
+   /* main */
+   .main_A {
+    height: 800px
+}
+/* slick */
+  .slick{
+    max-width: 860px;
+   
+  }
+/* spotlight // BEST PRODUCT */
+  .spotlight {
+    display: block;
+  }
+
+    .spotlight br {
+      display: none;
+    }
+
+    .spotlight .image {
+      width: 90%;
+      padding-left: 4rem;
+      margin: auto;
+    }
+    .spotlight .image img{
+      margin: auto;
+    }
+
+    .spotlight .content {
+      padding:0em 3rem 2rem 3rem ;
+      max-width: none;
+      text-align: center;
+      width: 74%;
+      margin: auto;
+    }
+    .spotlight .content h2 img {
+      margin-right: 5%;
+      margin-bottom: 0.5rem;
+  }
+    
+    .spotlight .conten {
+      padding:0;
+      max-width: none;
+      text-align: center;
+      width: 60%;
+      margin: auto;
+    }
+    .spotlight .conten h2 img {
+      margin-right: 5%;
+      margin-bottom: 0.5rem;
+  }
+
+
+    .spotlight .conten .detail>img{
+      width: 32%;
+      }
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+  html{font-size: 16px;}
+  /* main */
+  .main_A {
+    height: 700px;
+  }
+
+  /* slick */
+  .slick{
+   max-width: 700px;;
+   
+  }
+
+
+.spotlight {
+  margin-bottom: 6.25rem;
+}
+/* ABOU LUSH */
+  .wrappers {
+
+    width: 100%;
+    max-height: 600px;
+    max-width: none;
+    margin: 0 auto;
+    padding: 0px 0.5rem;
+    overflow: hidden;
+    display:flex;
+    flex-direction:column;
+    height:100vh;}
+    
+    .wrappers ul{
+      padding-left: 0;
+    }
+    .lush{
+      width: 100%;
+      background-color: #111;
+       overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    
+    }
+    
+    .lush-item {
+      background-color: #111;
+      transition: all .4s;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      opacity: 0.4;
+      height:40%;
+      width:100%;
+      padding:0;
+      overflow:hidden;
+    }
+
+    
+    .lush-item-cover {
+      flex-shrink:0;
+    }
+    
+    .lush:hover .lush-item {
+      width: 100%;
+      height: 25%;
+    }
+    
+    .lush .lush-item:hover {
+     height: 50%;
+      opacity: 1;
+    }
+    .lush .lush-item:hover .lush-item-contents {
+    
+      opacity: 1;
+    }
+    .lush-item-contents {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(255,255,255,0.7);
+      margin: 1rem;
+      padding: 1rem;
+      overflow: hidden;
+      opacity: 0;
+    }
+    
+    .lush-item-contents .l_text1 {
+      margin-bottom: 10px;
+    }
+    
+    .lush-item-contents p {
+      width:422px;
+    }
+
+    /* event */
+  .event_b .box{width:50%;}
+
+
+
+.event_b p{
+  font-family: "SpoqaHanSansNeo_R";
+  font-size:0.9rem;
+margin-bottom: 3.5rem;
+letter-spacing: -0.09rem;
+line-height: 1.4;}
+
+
+/* lush_I */
+.lush_I{
+max-width: 768px;
+margin: auto;
+padding: 0 0.5rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 2.5rem;
+
+}
+.lush_I img{
+
+width: 80%;
+text-align: center;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+  html{font-size: 14px;}
+  /* main */
+  .main_A {
+    height: 600px;
+}
+.main_A .banner_I {
+  top: 54%;
+  left: 5%;
+}
+/* title */
+#new .title{
+
+  margin:60px 0px;
+}
+#best_P .title{
+
+  margin:60px 0px;
+}
+#contents .title{
+
+  margin:60px 0px;
+}
+#gift .title{
+
+  margin:60px 0px;
+}
+#event .title{
+
+  margin:60px 0px;
+}
+
+ 
+
+/* spotlight // BEST PRODUCT */
+.spotlight {
+  margin-bottom: 60px;
+}
+
+/* lush_I */
+.lush_I{
+display: none;}
+
+/* gift */
+.gifts .gifts_L p {
+  font-size: 0.4rem;
+  top: 1.2rem;
+  margin-left: 1.2rem;
+  line-height: 1rem;
+}
+
+
+
+}
+/* ======================== */
+@media screen and (max-width: 420px) {
+  /* main */
+  .main_A .text-wrap .txt2 {
+    font-size: 2.2rem;
+}
+
+/* title */
+#new .title{
+
+  margin:50px 0px;
+}
+#best_P .title{
+
+  margin:50px 0px;
+}
+#contents .title{
+
+  margin:50px 0px;
+}
+#gift .title{
+
+  margin:50px 0px;
+}
+#event .title{
+
+  margin:50px 0px;
+}
+
+/* spotlight // BEST PRODUCT */
+.spotlight {
+    margin-bottom: 40px;
+}
+
+.spotlight .content h2 img {
+  margin-left: -10%;
+  margin-bottom: 0.5rem;
+}
+
+/* event */
+
+.event_b .box{width:100%;}
+.event_b h2 {
+  font-size: 1.6rem;
+  margin: 2.4rem 0 1.4rem;
+}
+
+.event_b p {
+  font-size: 1.1rem;
+  line-height: 1.4;
+  margin-bottom: 2.6rem;
+}
+
+}
+
+@media screen and (max-width: 375px) {
+  /* main */
+  .main_A {
+    height: 500px;
+  }
+  .main_A .text-wrap .txt2 {
+    font-size: 2.1rem;
+  }
+
+/* spotlight // BEST PRODUCT */
+.spotlight {
+  margin-bottom: 5rem;
+}
+.spotlight .content h2 img {
+  margin-left: -18%;
+}
+.spotlight .conten h2 img {
+  margin-left: -10%;
+  margin-bottom: 0.5rem;
+}
+/* event */
+.event_b .box{width:100%;}
+   
+
+}

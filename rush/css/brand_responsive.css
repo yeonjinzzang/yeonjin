@@ -1,0 +1,167 @@
+@media screen and (max-width: 1280px) {
+
+}
+
+@media screen and (max-width: 980px) {
+  #believe{
+  max-width: 100%;
+  }
+  #believe .right_B .title {
+    font-size: 1.9rem;
+    margin-bottom: 1.8rem;
+}
+  #believe .right_B {
+    padding-top: 2rem;
+}
+#believe .lush_Atxt {
+  margin-top: 25px;
+  height: 290px;
+}
+}
+  
+@media screen and (max-width: 768px) {
+
+  /* about_B 배너부분 */
+
+  /* ani1 */
+#about_B .ani1 img{
+  width: 100%;
+}
+
+@keyframes move1{
+  0%{transform:scaleX(100%);}
+  50%{transform:scaleX(108%);}
+  100%{transform:scaleX(100%);}
+}
+
+
+/* ani2 */
+#about_B .ani2{
+  width:65.4947%;
+  top:24.504692387904%;
+  left:18.229%;
+}
+@keyframes move2{
+  0%{transform:rotate(1deg);}
+  50%{transform:rotate(-1.5deg);}
+  100%{transform:rotate(1deg);}
+}
+
+/* ani3 */
+
+#about_B .ani3{
+  width: 28.64583%;
+  position: absolute;
+  top:80%;
+  left:38.26041666667%;
+  animation: move3 5s infinite ease-in-out;/*무한반복, 가속도*/
+}
+@keyframes move3{
+  0%{ transform:translate(2%,2%);}
+  50%{  transform:translate(-1%,-2%); }
+  100%{ transform:translate(2%,2%); }
+
+}
+
+  /* ani4 */
+  #about_B .ani4{
+  width: 17.1875%;
+  position: absolute;
+  top:19%;
+  left:48%;
+  transform: translateX(-50%);
+}
+/* ani5 */
+#about_B .ani5{
+  width: 31.25%;
+  position: absolute;
+  bottom:10.33333%;
+  left:29.947916%;
+
+}
+/* believe */
+
+  #believe .right_B .title {
+    font-size: 1.6rem;
+    margin-bottom: 1.4rem;
+}
+  .about_Ctxt {
+    font-size: 16px;
+}
+.right_B li p {
+  font-size: 14px;
+}
+#believe .lush_Atxt {
+margin-top: 0px;
+height: 234px;
+}
+}
+@media screen and (max-width: 480px) {
+/* about_B 배너부분 */
+
+/* ani2 */
+#about_B .ani2{
+  width:74.166666%;
+  top:39%;
+  left:15.8333333%;
+}
+/* ani3 */
+#about_B .ani3{
+  width: 30.13541666667%;
+  top:82%;
+  left:37.26041666667%;
+}
+
+/* ani4 */
+#about_B .ani4{
+  width: 21.45833333%;
+  top:25.2%;
+  left:49%;
+}
+
+/* ani5 */
+#about_B .ani5{
+  width: 34%;
+  top:82.5%;
+  left:30.94791666667%;
+  transform: translateX(-10%);
+
+}
+
+/*believe */
+#believe .left_B {
+    width: 100%;
+}
+#believe .right_B {
+  width: 100%;
+  padding-left: 2.4rem;
+}
+#believe .right_B .title {
+display: none;
+}
+#believe .right_B {
+padding-left: 0;
+}
+#lush_S .lush_I {
+display: none;
+}
+#believe .lush_Atxt {
+margin-top: 0px;
+height: 280px;
+}
+#lush_Bs .lush_Bsc {
+width: 100%;
+}
+#lush_Bs .lush_Bsc:first-child {
+margin-bottom: 20px;
+}
+
+/* title 간격 */
+#believe .believe_title {margin: 0 0 60px;}
+#event_b .event_title { margin: 0 0 60px;}
+
+/* marquee  흐르는글씨 */
+marquee { margin: 90px 0;}
+
+}
+@media screen and (max-width: 375px) {}

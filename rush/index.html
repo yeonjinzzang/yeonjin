@@ -1,0 +1,662 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>러쉬</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+      <!--css외부정의-->
+      <link href="css/reset.css" rel="stylesheet">
+      <link href="css/header.css" rel="stylesheet">
+      <link href="css/main.css" rel="stylesheet">
+      <link href="css/footer.css" rel="stylesheet">
+      <link href="css/main_responsive.css" rel="stylesheet">
+      
+      <!-- <link href="css/footer.css" rel="stylesheet"> -->
+    
+      <!--jqeury라이브러리-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+      
+    <!--custom js-->
+    <script src="js/custom.js"></script>
+    <script src="js/header.js"></script>
+    <!-- fontasome -->
+    <script src="https://kit.fontawesome.com/632d3e2496.js" crossorigin="anonymous"></script>
+ 
+    <!-- slick -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/slick.less"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/slick-theme.css" rel="stylesheet">
+   
+  </head>
+  <body>
+
+    <header id="lush_header">
+
+      <div id="header" class="header-inner">
+     
+          <div class="toggle">
+            <i class="fas fa-bars"></i>
+          </div><!--햄버거바-->
+  
+  
+          <div class="header-logo">
+            <a href="index.html"><img src="img/L_logo.png" alt="러쉬로고 이미지"></a>
+          </div>
+          
+          <div class="gnbs">
+        
+            <ul class="lush_Hlist">
+              <li>
+                <a class="menu_Name" href="brand.html">BRAND</a>
+                <ul class="lush_Slist">
+                  <li><a href="brand.html">브랜드 스토리</a></li>
+                  <li><a href="brand.html">캠페인</a></li>
+                  <li><a href="brand.html">이벤트</a></li>
+                  <li><a href="brand.html">뉴스</a></li>
+                </ul>
+              </li>
+  
+              <li>
+                <a class="menu_Name" href="bath.html">BATH</a>
+                <ul class="lush_Slist">
+                  <li><a href="bath.html">배쓰밤&오일</a></li>
+                  <li><a href="bath.html">버블바</a></li>
+                  <li><a href="bath.html">샤워젤&젤리</a></li>
+                  <li><a href="bath.html">스크럽&버터</a></li>
+                </ul>
+              </li>
+  
+              <li>
+                <a class="menu_Name" href="#">BODY</a>
+                <ul class="lush_Slist">
+                  <li><a href="#">클렌저</a></li>
+                  <li><a href="#">마사지바</a></li>
+                  <li><a href="#">로션&크림</a></li>
+                  <li><a href="#">핸드&풋</a></li>
+                </ul>
+              </li>
+  
+              <li>
+                <a class="menu_Name" href="#">FACE</a>
+                <ul class="lush_Slist">
+                  <li><a href="#">클렌저</a></li>
+                  <li><a href="#">마스크</a></li>
+                  <li><a href="#">토너&크림</a></li>
+                  <li><a href="#">립</a></li>
+                </ul>
+              </li>
+  
+              <li>
+                <a class="menu_Name" href="#">HAIR</a>
+                <ul class="lush_Slist">
+                  <li><a href="#">샴푸 바</a></li>
+                  <li><a href="#">샴푸</a></li>
+                  <li><a href="#">컨티셔너</a></li>
+                  <li><a href="#">트리트먼트</a></li>
+                </ul>
+              </li>
+  
+              <li>
+                <a class="menu_Name" href="#">GIFT</a>
+                <ul class="lush_Slist">
+                  <li><a href="#">남자를 위한</a></li>
+                  <li><a href="#">여자를 위한</a></li>
+                  <li><a href="#">비건을 위한</a></li>
+                  <li><a href="#">낫랩</a></li>
+                </ul>
+              </li>
+  
+            </ul>
+  
+  
+            <ul class="icons_H">
+              <li><a href="#"><i class="fas fa-search"></i></a></li>
+              <li><a href="#"><i class="fas fa-shopping-bag"></i></a></li>
+              <li><a href="#"><i class="far fa-smile"></i></a></li>
+            </ul>
+          </div><!--gnbs-->
+  
+          <div class="snb-m-bg"></div>
+          <div class="snb">
+            <div class="lush_Mlogo">
+              <img src="img/lush_Mlogo.gif" alt="logo_M">
+              <hr class="mobile_line1">
+            </div>
+            <div class="snb-wrap"> 
+              <ul class="lush_Mlist">
+  
+                <li><a href="#none">BRAND</a>
+                  <span class="arrow-down-up"></span>
+                  <ul class="sub-snb-list">
+                    <li><a href="brand.html">브랜드 스토리</a></li>
+                    <li><a href="brand.html">캠페인</a></li>
+                    <li><a href="brand.html">이벤트</a></li>
+                    <li><a href="brand.html">뉴스</a></li>
+                  </ul>
+                </li><!--1-->
+  
+                <li><a href="#none">BATH&SHOWER</a>
+                  <span class="arrow-down-up"></span>
+                  <ul class="sub-snb-list">
+                    <li><a href="bath.html">배쓰 밤&오일</a></li>
+                    <li><a href="bath.html">버블 바</a></li>
+                    <li><a href="bath.html">샤워젤&젤리</a></li>
+                    <li><a href="bath.html">스크럽&버터</a></li>
+                  </ul>
+                </li><!--2-->
+  
+                <li><a href="#none">BODY</a>
+                  <span class="arrow-down-up"></span>
+                  <ul class="sub-snb-list">
+                    <li><a href="#none">클렌저</a></li>
+                    <li><a href="#none">마사지바</a></li>
+                    <li><a href="#none">로션&크림</a></li>
+                    <li><a href="#none">핸드&풋</a></li>
+                  </ul>
+                </li><!--3-->
+  
+                <li><a href="#none">FACE</a>
+                  <span class="arrow-down-up"></span>
+                  <ul class="sub-snb-list">
+                    <li><a href="#none">클렌저</a></li>
+                    <li><a href="#none">마스크</a></li>
+                    <li><a href="#none">토너&크림</a></li>
+                    <li><a href="#none">립</a></li>
+                  </ul>
+                </li><!--4-->
+  
+                <li><a href="#none">HAIR</a>
+                  <span class="arrow-down-up"></span>
+                  <ul class="sub-snb-list">
+                    <li><a href="#none">샴푸 바</a></li>
+                    <li><a href="#none">샴푸</a></li>
+                    <li><a href="#none">컨티셔너</a></li>
+                    <li><a href="#none">트리트먼트</a></li>
+                  </ul>
+                </li><!--5-->
+  
+                <li><a href="#none">GIFT</a>
+                  <span class="arrow-down-up"></span>
+                  <ul class="sub-snb-list">
+                    <li><a href="#none">남자를 위한</a></li>
+                    <li><a href="#none">여자를 위한</a></li>
+                    <li><a href="#none">비건을 위한</a></li>
+                    <li><a href="#none">낫랩</a></li>
+                  </ul>
+                </li><!--6-->
+  
+  
+              </ul>
+              <hr class="mobile_line2">
+            </div><!--snb-wrap-->
+  
+            <div class="snb-close">
+              <a href="javascript:void(0)"></a>
+            </div>
+  
+          </div><!--snb-->
+  
+      </div>
+    </header>
+
+
+    
+    <!-- <main class="hero-bg scene">
+      <div class="video-wrap full-bg"> -->
+        <!-- <img src=""> -->
+        <!-- <video src="img/lushmp.mp4" muted autoplay loop poster="">
+        </video> -->
+        <!-- <div class="text-wrap">
+          <p class="txt1">colorful</p>
+          <p class="txt2">LUSH EVERY DAY</p>
+          <p class="txt3">컬러풀한 러쉬와 매일 함께해보세요</p>
+        </div> -->
+      <!-- </div>
+
+    </main> -->
+    <div class="main_A">
+      <div class="main">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="banner_I">
+        <img src="img/banner_I.png" alt="banner_Item">
+      </div>
+      <div class="text-wrap">
+        <p class="txt1">colorful</p>
+        <p class="txt2">LUSH EVERY DAY</p>
+        <p class="txt3">컬러풀한 러쉬와 매일 함께해보세요</p>
+      </div>
+    </div>
+
+
+    <section id="new">
+      <div class="title">
+        <p class="txt1">NEW PRODUCT</p>
+        <p class="txt2">러쉬의 새로운 제품을 만나보세요</p>
+      </div>
+    </section>
+
+      <div class="slick">
+        <div class="list1 cons"><a href="bath.html">
+          <div class=img_L>
+            <img src="img/New1.png">
+          </div><!--img_L-->
+          <div class="txt_L">
+          <p class="txt1_L">트와일라잇</p>
+          <p class="txt2_L">SLEEPY BODY SPREY</p>
+          <hr class="hr1">
+          <p class="txt3_L"><b>SIZE</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;200ml</p>
+          <hr class="hr2">
+          <p class="txt4_L"><b>SCENT</b>&nbsp;&nbsp;&nbsp;&nbsp;라임,바다소금,자몽</p>
+          </div>
+          </a>
+        </div><!--list1-->
+
+        <div class="list1 cons"><a href="bath.html">
+          <div class=img_L>
+            <img src="img/New2.png">
+          </div><!--img_L-->
+          <div class="txt_L">
+          <p class="txt1_L">오션솔트</p>
+          <p class="txt2_L">FACE&amp;BODY SCRUB</p>
+          <hr class="hr1">
+          <p class="txt3_L"><b>SIZE</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;120g</p>
+          <hr class="hr2">
+          <p class="txt4_L"><b>SCENT</b>&nbsp;&nbsp;&nbsp;&nbsp;라임,바다소금,자몽</p>
+          </div>
+          </a>
+        </div><!--list1-->
+
+        <div class="list1 cons"><a href="bath.html">
+          <div class=img_L>
+            <img src="img/New3.png">
+          </div><!--img_L-->
+          <div class="txt_L">
+          <p class="txt1_L">슬리피</p>
+          <p class="txt2_L">SHOWER JELL</p>
+          <hr class="hr1">
+          <p class="txt3_L"><b>SIZE</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;110g</p>
+          <hr class="hr2">
+          <p class="txt4_L"><b>SCENT</b>&nbsp;&nbsp;&nbsp;&nbsp;라벤더,일랑일랑오일</p>
+          </div>
+          </a>
+        </div><!--list1-->
+
+        <div class="list1 cons"><a href="bath.html">
+          <div class=img_L>
+            <img src="img/New4.png">
+          </div><!--img_L-->
+          <div class="txt_L">
+          <p class="txt1_L">리트레드</p>
+          <p class="txt2_L">HAIR CONDITIONER</p>
+          <hr class="hr1">
+          <p class="txt3_L"><b>SIZE</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;245g</p>
+          <hr class="hr2">
+          <p class="txt4_L"><b>SCENT</b>&nbsp;&nbsp;&nbsp;&nbsp;올리브오일</p>
+          </div>
+        </div><!--list1-->
+        <div class="list1 cons"><a href="bath.html">
+          <div class=img_L>
+            <img src="img/New5.png">
+          </div><!--img_L-->
+          <div class="txt_L">
+          <p class="txt1_L">허벌리즘</p>
+          <p class="txt2_L">FRESH CLEANJER</p>
+          <hr class="hr1">
+          <p class="txt3_L"><b>SIZE</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;250g</p>
+          <hr class="hr2">
+          <p class="txt4_L"><b>SCENT</b>&nbsp;&nbsp;&nbsp;&nbsp;아몬드,카모마일</p>
+          </div>
+        </a>
+        </div><!--list1-->
+        <div class="list1 cons"><a href="bath.html">
+          <div class=img_L>
+            <img src="img/New6.png">
+          </div><!--img_L-->
+          <div class="txt_L">
+          <p class="txt1_L">로즈잼</p>
+          <p class="txt2_L">SHOWER JELL</p>
+          <hr class="hr1">
+          <p class="txt3_L"><b>SIZE</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100g</p>
+          <hr class="hr2">
+          <p class="txt4_L"><b>SCENT</b>&nbsp;&nbsp;&nbsp;&nbsp;제라늄,장미,레몬</p>
+          </div>
+          </a>
+        </div><!--list1-->
+      </div><!--slider-->
+
+
+    <section id="best_P">
+      <div class="title">
+        <p class="txt1">BEST PRODUCT</p>
+        <p class="txt2">러쉬의 베스트 메뉴</p>
+      </div>
+    </section>
+
+    <section id="best_M" class="wraps alt style2">
+      <section class="spotlight">
+        <div class="image lush_b1"><img src="img/lush_bmm1.png" alt="menu1" /></div>
+        <div class="content cont">
+          <h2><img src="img/B_txt1.png"></h2>
+        
+          <p class="b_txt1">
+            #베쓰밤 #사탕가게에온듯한
+            </p>
+            <p class="b_txt2">
+            상콤달콤한 딸기와 바닐라가 넘실대는 욕조에 몸을 기대면,<br>
+            부드러운 마쉬멜로우 파우더의 달콤함이<br>
+            기분 좋은 미소를 선사할 거예요.
+            </p>
+            <div class="detail">
+            <img src="img/B_menu1.png" alt="menu1">
+            <img src="img/B_menu2.png" alt="menu1">
+            <img src="img/B_menu3.png" alt="menu1">
+            </div>
+            <div class="more">
+            <a href="#"><span>View More</span></a>
+            </div>
+        </div>
+      </section>
+      <section class="spotlight">
+        <div class="image"><img src="img/lush_bmmm2.png" alt="menu2" /></div>
+        <div class="conten">
+          <h2><img src="img/B_txt1.png"></h2>
+        
+          <p class="b_txt1">
+            #베쓰밤 #사탕가게에온듯한
+            </p>
+            <p class="b_txt2">
+            상콤달콤한 딸기와 바닐라가 넘실대는 욕조에 몸을 기대면,<br>
+            부드러운 마쉬멜로우 파우더의 달콤함이<br>
+            기분 좋은 미소를 선사할 거예요.
+            </p>
+            <div class="detail">
+            <img src="img/B_menu4.png" alt="menu1">
+            <img src="img/B_menu5.png" alt="menu1">
+            <img src="img/B_menu6.png" alt="menu1">
+            </div>
+            <div class="more">
+              <a href="#"><span>View More</span></a>
+            </div>
+        </div>
+      </section>
+      <section class="spotlight">
+        <div class="image"><img src="img/lush_bmm3.png" alt="menu3" /></div>
+        <div class="content cont">
+          <h2><img src="img/B_txt1.png"></h2>
+        
+          <p class="b_txt1">
+            #베쓰밤 #사탕가게에온듯한
+            </p>
+            <p class="b_txt2">
+            상콤달콤한 딸기와 바닐라가 넘실대는 욕조에 몸을 기대면,<br>
+            부드러운 마쉬멜로우 파우더의 달콤함이<br>
+            기분 좋은 미소를 선사할 거예요.
+            </p>
+            <div class="detail">
+            <img src="img/B_menu7.png" alt="menu1">
+            <img src="img/B_menu8.png" alt="menu1">
+            <img src="img/B_menu9.png" alt="menu1">
+            </div>
+            <div class="more">
+              <a href="#"><span>View More</span></a>
+            </div>
+        </div>
+      </section>
+    </section>
+
+    <section id="contents">
+      <div class="bg">
+        <div id="about">
+          <div class="title">
+            <p class="txt1">ABOUT LUSH</p>
+            <p class="txt2">러쉬의 가치관과 이야기</p>
+          </div>
+        </div>
+        
+
+        <div class="wrappers">
+            
+          <ul class="lush">
+              <li class="lush-item list_L1 active on" style="background-color: antiquewhite">
+                  <img class="lush-item-cover" src="img/accc1.png">
+                  <div class="lush-item-contents">
+                      <p class="l_text1">WE BELIEVE</p>
+                      <p class="l_text2"> A LUSH LIFE</p>
+                      <p class="l_text3">
+                        <!-- 우리는 행복한 사람이 행복한<br>
+                          제품을 만들 수 있다고 믿으며,<br> -->
+                          우리 제품이 가진 올바른 가치를 제공하고,<br>
+                          고객이 항상 옳다는 사실을 믿습니다.</p>
+                  </div>
+              </li>
+              <li class="lush-item list_L2">
+                  <img class="lush-item-cover" src="img/accc2.png">
+                  <div class="lush-item-contents">
+                      <p class="l_text1">GIVING</p>
+                      <p class="l_text2"> 러쉬의 기부</p>
+                      <p class="l_text3">러쉬는 인권, 동물보호, 환경 보전을 위해<br>
+                         <!-- 공헌하는 비영리 소규모 단체를 후원하는<br>  -->
+                         채러티 팟제도를 운영합니다.
+                      <!-- 채러티 팟에는 세상에 행복을
+                    주는 원재료로 가득합니다. -->
+                  </p>
+                  </div>
+              </li>
+              <li class="lush-item list_L3">
+                  <img class="lush-item-cover" src="img/accc3.png">
+                  <div class="lush-item-contents">
+                      <p class="l_text1">Fair Trade</p>
+                      <p class="l_text2"> 공정한 원재료</p>
+                      <p class="l_text3">
+                        러쉬는 자체적으로
+                         거래처를 관리하며<br> 
+                         공정하게 원재료를 얻습니다. 
+                        <!-- 계속해서 공정하게 원재료를 <br>
+                        얻을 것을 약속합니다. -->
+                      </p>
+                  </div>
+              </li>
+              <li class="lush-item list_L4">
+                  <img class="lush-item-cover" src="img/accc4.png">
+                  <div class="lush-item-contents">
+                      <p class="l_text1">Fair Share</p>
+                      <p class="l_text2"> 공정 배분</p>
+                      <p class="l_text3">
+                        러쉬의 원재료 경로를
+                       투명하게 공개<br>해야 하며,
+                       <!-- 지역사회의 전통을<br>
+                       존중하고,  환경 및 생물 다양성 관련<br>  -->
+                       국제 협약을 준수해야 합니다.</p>
+                  </div>
+              </li>
+          </ul>
+      </div><!--wrppers-->
+      
+      <ul class="lush_I">
+        <li><img src="img/Lush1.png" alt="lush1"></li>
+        <li><img src="img/Lush2.png" alt="lush2"></li>
+        <li><img src="img/Lush3.png" alt="lush3"></li>
+        <li><img src="img/Lush4.png" alt="lush4"></li>
+        <li><img src="img/Lush5.png" alt="lush5"></li>
+        <li><img src="img/Lush6.png" alt="lush6"></li>
+      </ul><!--lush_I-->
+
+       <section id="gift">
+        <div class="title">
+          <p class="txt1">Gift For</p>
+          <p class="txt2">소중한사람에게 러쉬를 선물하세요</p>
+        </div>
+      </section>
+
+      <!-- gift -->
+      <div class = "gifts">
+        <div class="gift_L1 gifts_L" >
+          <a href="#"><img src="img/gift1.png"alt="gift1"></a>
+          <p>FOR WOMEN</p>
+       
+        </div>
+
+        <div class="gift_L2 gifts_L">
+          <a href="#"><img src="img/gift2.png"alt="gift2"></a>
+          <p>FOR MEN</p>
+          <!-- <div class="gift_next"><i class="fas fa-long-arrow-alt-right"></i></i></div> -->
+        </div>
+
+        <div class="gift_L3 gifts_L">
+          <a href="#"><img src="img/gift3.png"alt="gift3"></a>
+          <p>KNOT WRAP</p>
+          <!-- <div class="gift_next"><i class="fas fa-long-arrow-alt-right"></i></i></div> -->
+        </div>
+
+        <div class="gift_L4 gifts_L">
+          <a href="#"><img src="img/gift4.png"alt="gift4"></a>
+          <p>FOR VEGAN</p>
+          <!-- <div class="gift_next"><i class="fas fa-long-arrow-alt-right"></i></i></div> -->
+        </div>
+      </div>
+
+      <section id="event">
+        <div class="title">
+          <p class="txt1">EVENT</p>
+          <p class="txt2">러쉬의 이벤트를 확인하세요</p>
+        </div>
+      </section>
+      
+      <div class="event_b">
+        <div class="card">
+          <ul class="box">
+            <li class="box2">
+              <ul class="box3">
+                <li class="thumb">
+                  <img src="img/event1.png" alt="pic">
+                </li>
+                <li class="txt">
+                  <h2>러쉬제품 원플러스원</h2>
+                  <p>두개중 무엇을 사야할지 고민인 사람,<br>
+                    소중한 사람과 쓰고 싶었던 사람들<br>
+                    원플러스원 기간을 이용해보세요</p>
+                </ul>
+              </li>
+            </li>
+          </ul>
+          <ul class="box">
+            <li class="box2">
+              <ul class="box3">
+                <li class="thumb">
+                  <img src="img/event2.png" alt="pic">
+                </li>
+                <li class="txt">
+                  <h2>러쉬 헤어케어</h2>
+                  <p>곱슬머리인 사람들을 위한 아프로<br>
+                     헤어 케어,러쉬의 아프로 헤어 케어<br>  
+                     제품을 러쉬매장에서 체험 해보세요.</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="box">
+            <li class="box2">
+              <ul class="box3">
+                <li class="thumb">
+                  <img src="img/event3.png" alt="pic">
+                </li>
+                <li class="txt">
+                  <h2>프레쉬 위크</h2>
+                  <p>신선함은 물론 피부를 가꾸는 즐거움<br> 
+                    주는 프레쉬 마스크, 프레쉬 위크에 <br>
+                    구매시 스마트 샘플을 제공합니다.</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <section class="lush_Ip">
+        <hr>
+        <p class="lush_text1">Lush</p>
+        <p class="lush_text2">Subscribe LUSH’s Newsletter!</p>
+        <div class="input_wrap">
+          <input type="email" class="email_I" placeholder="Enter your email">
+          <button type="button" class="emailBtn">&gt;</button>
+        </div>
+      </section>
+      <!-- footer -->
+      <footer>
+        <div class="wrap_F">
+          <div class="menu">
+            <ul>
+              <li class="st"><a href="#">BRAND</a></li>
+              <li><a href="#">브랜드 스토리</a></li>
+              <li><a href="#">이벤트</a></li>
+              <li><a href="#">뉴스</a></li>
+            </ul>
+            <ul>
+              <li class="st"><a href="#">BATH&SHOWER</a></li>
+              <li><a href="#">배쓰밤&오일</a></li>
+              <li><a href="#">버블 바</a></li>
+              <li><a href="#">샤워 젤&젤리</a></li>
+              <li><a href="#">스크럽&바터</a></li>
+            </ul>
+            <ul>
+              <li class="st"><a href="#">BODY</a></li>
+              <li><a href="#">클렌저</a></li>
+              <li><a href="#">마스지바</a></li>
+              <li><a href="#">로션&크림</a></li>
+              <li><a href="#">핸드&풋</a></li>
+            </ul>
+            <ul>
+              <li class="st"><a href="#">FACE</a></li>
+              <li><a href="#">클렌저</a></li>
+              <li><a href="#">마스크</a></li>
+              <li><a href="#">토너&크림</a></li>
+              <li><a href="#">립</a></li>
+            </ul>
+            <ul>
+              <li class="st"><a href="#">HAIR</a></li>
+              <li><a href="#">샴푸</a></li>
+              <li><a href="#">컨디셔너</a></li>
+              <li><a href="#">트리트먼트</a></li>
+            </ul>
+            <ul>
+              <li class="st"><a href="#">GIFT</a></li>
+              <li><a href="#">남자를 위한</a></li>
+              <li><a href="#">여자를 위한</a></li>
+              <li><a href="#">비건을 위한</a></li>
+              <li><a href="#">낫랩</a></li>
+            </ul>
+          </div>
+          <ul class="sns_I">
+            <li class="icon">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram-square"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-google"></i></a>
+            
+            </li>
+          </ul>
+      
+          <div class="author">
+            Copyright &copy;2022LUSH DESIGN BY CHOI YEON JIN. ALL RIGHTS RESERVED.
+          </div>
+        </div>
+      </footer>
+
+
+    </div><!--bg-->
+    
+  </section>
+  
+
+
+</body>
+</html>
